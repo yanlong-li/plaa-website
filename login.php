@@ -143,8 +143,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
 <header>
-    <img src="static/img/aaemu-logo.png" alt="ArcheAge 游戏">
-<!--    <a style="font-size: 60px; color: #666666;font-weight: bold;text-decoration: none;" href="/">随时跑路的上古</a>-->
+<!--    <img src="static/img/aaemu-logo.png" alt="ArcheAge 游戏">-->
+    <a style="font-size: 60px; color: #666666;font-weight: bold;text-decoration: none;" href="/">随时删档跑路的上古</a>
 </header>
 <main>
     <section id="start">
