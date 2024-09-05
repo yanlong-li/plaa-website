@@ -79,7 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>账号登录</title>
+    <title>账号中蹙额</title>
     <style>
         body {
             background-color: #121212;
@@ -182,8 +182,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
 <header>
-    <img src="static/img/aaemu-logo.png" alt="ArcheAge 游戏">
-<!--    <a style="font-size: 60px; color: #666666;font-weight: bold;text-decoration: none;" href="/">随时跑路的上古</a>-->
+<!--    <img src="static/img/aaemu-logo.png" alt="ArcheAge 游戏">-->
+    <a style="font-size: 60px; color: #666666;font-weight: bold;text-decoration: none;" href="/">随时删档跑路的上古</a>
 </header>
 <main>
     <section id="start">
