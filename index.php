@@ -119,9 +119,7 @@ include_once 'common.php';
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a class="btn" href="./activity.php">活动专题</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a class="btn" href="https://pan.quark.cn/s/9b7a76858d95" target="_blank">下载游戏本体</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a class="btn" href="https://github.com/AAEmu/AAEmu/" target="_blank">查看开源项目</a>
+            <a class="btn" href="https://pan.quark.cn/s/9b7a76858d95" target="_blank">下载游戏</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a class="btn" href="https://qm.qq.com/q/h7TMOhVhXG" target="_blank">加入QQ群</a>
         </div>

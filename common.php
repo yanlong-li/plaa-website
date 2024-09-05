@@ -8,14 +8,16 @@ include_once 'db.php';
 
 function get_token($username, $password)
 {
+    $md5 = md5_file("compact.sqlite3");
     $str = <<<JSON
 {
     "u": "$username",
     "p": "$password",
     "s": "47.122.21.80",
     "P": 1237,
-    "v": 1,
-    "mv": 1
+    "v": 2,
+    "mv": 2,
+    "dh": "$md5"
 }
 JSON;
 

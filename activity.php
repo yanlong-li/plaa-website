@@ -350,23 +350,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     document.getElementById('activity-option-select').onchange();
 </script>
 <script>
-    function startGame(gid) {
+    function startGame() {
 
 
         <?php if(empty($_SESSION['user'])):?>
         window.location = 'login.php';
         return;
         <?php endif ?>
-
-        let launcherWindow = window.open('aelcf://aaemu.yanlongli.com/A/nQUFFbXUtWWFubG9uZ2xp/adHJpbm9fMV8y/waHR0cHM6Ly9hYWVtdS55YW5sb25nbGkuY29t/LemhfY24%3D/lemhfY24%3D/faHR0cHM6Ly9hYWVtdS55YW5sb25nbGkuY29tL25ld3NmZWVkLw%3D%3D/xaHR0cHM6Ly9hYWVtdS1wYXRjaC55YW5sb25nbGkuY29tLw==/u<?=base64_encode($_SESSION['user']['username'] ?? '')?>/p<?=base64_encode(bin2hex(base64_decode($_SESSION['user']['password'] ?? '')))?>/g' + gid);
-        //let launcherWindow = window.open('aelcf://127.0.0.1/A/nQUFFbXUtWWFubG9uZ2xp/adHJpbm9fMV8y/waHR0cHM6Ly9hYWVtdS55YW5sb25nbGkuY29t/LemhfY24%3D/lemhfY24%3D/faHR0cHM6Ly9hYWVtdS55YW5sb25nbGkuY29tL25ld3NmZWVkLw%3D%3D/xaHR0cHM6Ly9hYWVtdS1wYXRjaC55YW5sb25nbGkuY29tLw==/u<?php //=base64_encode($_SESSION['user']['username'] ?? '')?>///p<?php //=base64_encode(bin2hex(base64_decode($_SESSION['user']['password'] ?? '')))?>///g' + gid + '/sdHJ1ZQ==');
-
+        let launcherWindow = window.open('plaa://<?=get_token($_SESSION['user']['username'] ?? '', bin2hex(base64_decode($_SESSION['user']['password'] ?? '')))?>');
         if (!launcherWindow) {
             alert("游戏启动失败，请先下载启动器！");
         } else {
             launcherWindow.document.write(`<H1>正在启动游戏......</H1>`);
             // Set a timeout to check if the schema was handled
-            timeout = setTimeout(function () {
+            let timeout = setTimeout(function () {
                 // If the new window is still open after the timeout, it means the schema was not handled
                 if (!launcherWindow.closed) {
                     launcherWindow.document.write(`<H1>启动失败，<a class="btn download" href="https://aaemu.yanlongli.com/Patcher.exe">点击下载启动器</a></H1> <p>游戏客户端本体因较大，请提前下载。</p><a href="https://github.com/AAEmu/AAEmu/wiki/Client">下载游戏客户端本体</a>`);
