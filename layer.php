@@ -148,7 +148,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <div class="center-cont">
             <button onclick="startGame('MA==')">开始游戏</button>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a class="btn" href="./Launcher.7z">下载启动器</a>
+            <a class="btn" href="./Patcher.exe">下载启动器</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a class="btn" href="https://github.com/AAEmu/AAEmu/wiki/Client" target="_blank">下载游戏本体</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -210,7 +210,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             timeout = setTimeout(function () {
                 // If the new window is still open after the timeout, it means the schema was not handled
                 if (!launcherWindow.closed) {
-                    launcherWindow.document.write(`<H1>启动失败，<a class="btn download" href="https://aaemu.yanlongli.com/Launcher.7z">点击下载启动器</a></H1> <p>游戏客户端本体因较大，请提前下载。</p><a href="https://github.com/AAEmu/AAEmu/wiki/Client">下载游戏客户端本体</a>`);
+                    launcherWindow.document.write(`<H1>启动失败，<a class="btn download" href="https://aaemu.yanlongli.com/Patcher.exe">点击下载启动器</a></H1> <p>游戏客户端本体因较大，请提前下载。</p><a href="https://github.com/AAEmu/AAEmu/wiki/Client">下载游戏客户端本体</a>`);
                 }
             }, 2000);
         }

@@ -1,12 +1,8 @@
 <?php
-$str  = str_split('35303431373332353932373039333139333133', 2);
-$data = '';
-foreach ($str as $item) {
-    if(strlen($item)<2){
-        continue;
-    }
-    $data .= hex2bin($item);
-}
+$data = [1,2,3,4,5,6,7,8];
 
 
-var_dump($data);
+
+$l = array_chunk($data,3);
+
+var_dump($l,$data);

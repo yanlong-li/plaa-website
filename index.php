@@ -105,7 +105,7 @@ include_once 'common.php';
 </head>
 <body>
 <header>
-    <img src="static/img/aaemu-logo.png" alt="ArcheAge 游戏">
+    <img src="static/img/aaemu-logo.png" alt="ArcheAge 游戏" onclick="window.location = ''">
 <!--    <a style="font-size: 60px; color: #666666;font-weight: bold;text-decoration: none;" href="/">随时跑路的上古</a>-->
 </header>
 <main>
@@ -116,6 +116,8 @@ include_once 'common.php';
             <button onclick="startGame('MA==')">开始游戏</button>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a class="btn" href="./Patcher.exe">下载启动器</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="btn" href="./activity.php">活动专题</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a class="btn" href="https://github.com/AAEmu/AAEmu/wiki/Client" target="_blank">下载游戏本体</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

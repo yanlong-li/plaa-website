@@ -1,13 +1,14 @@
 <?php
+date_default_timezone_set('UTC');
 // 开启session
 session_start();
 
 include_once 'db.php';
 
 
-
-function get_token($username,$password){
-$str = <<<JSON
+function get_token($username, $password)
+{
+    $str = <<<JSON
 {
     "u": "$username",
     "p": "$password",
@@ -19,11 +20,11 @@ $str = <<<JSON
 JSON;
 
 
-$str = json_encode(json_decode($str, true));
-$iv = random_bytes(8);
-$data = rc4($iv, $str);
+    $str  = json_encode(json_decode($str, true));
+    $iv   = random_bytes(8);
+    $data = rc4($iv, $str);
 
-return base64_encode($iv . $data);
+    return base64_encode($iv . $data);
 }
 
 
@@ -60,4 +61,32 @@ function rc4($key, $data)
     }
 
     return $result;
+}
+
+
+function sendMail($data,&$response)
+{
+
+    $url = 'http://qingcloud:1280/mail/send'; // 替换为你的目标 URL
+// 初始化 cURL 会话
+    $ch = curl_init($url);
+
+// 设置 cURL 选项
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'Content-Type: application/json'
+    ]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data, JSON_UNESCAPED_UNICODE));
+
+// 执行 cURL 请求
+    $response = curl_exec($ch);
+
+// 获取 HTTP 响应状态码
+    $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+// 关闭 cURL 会话
+    curl_close($ch);
+
+    return $http_code;
 }
