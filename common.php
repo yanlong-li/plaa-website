@@ -15,8 +15,8 @@ function get_token($username, $password)
     "p": "$password",
     "s": "47.122.21.80",
     "P": 1237,
-    "v": 2,
-    "mv": 2,
+    "v": 3,
+    "mv": 3,
     "dh": "$md5"
 }
 JSON;
