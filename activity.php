@@ -298,7 +298,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <select style="font-size: 16px;height: 24px;background: #333333;border: none;border-radius: 5px;color: #aaaaaa"
                             name="character_id">
                         <?php
-                        $characterList = getCharactersByAccountId(4, $_SESSION['user']['id']);
+                        $characterList = getCharactersByAccountId(2, $_SESSION['user']['id']);
                         foreach ($characterList as $item) {
                             ?>
                             <option value="<?= $item['id'] ?>">
