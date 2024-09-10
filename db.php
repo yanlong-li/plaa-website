@@ -13,7 +13,14 @@ function getServerDbById($id)
         return $serverPdo[$id];
     }
 
-    $pdo = new PDO('mysql:host=100.126.86.31;dbname=aaemu_game', 'archeage', 'archeage');
+    $dns = [
+               1 => 'mysql:host=100.72.249.21;dbname=aaemu_game',
+               2 => 'mysql:host=100.126.86.31;dbname=aaemu_game',
+               3 => 'mysql:host=100.115.127.38;dbname=aaemu_game',
+               4 => 'mysql:host=100.126.86.31;dbname=aaemu_game_plaa',
+           ][$id];
+
+    $pdo = new PDO($dns, 'archeage', 'archeage');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     $serverPdo[$id] = $pdo;

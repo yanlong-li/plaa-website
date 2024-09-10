@@ -66,7 +66,7 @@ function rc4($key, $data)
 }
 
 
-function sendMail($data,&$response)
+function sendMail($data, &$response)
 {
 
     $url = 'http://qingcloud:1280/mail/send'; // 替换为你的目标 URL
