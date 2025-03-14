@@ -83,6 +83,7 @@ $config = [
             'rules'           => [
                 '/news/<id:\d+>'  => 'news/info',
                 '/guide/<id:\d+>' => 'guide/info',
+                '/help/faq/<id:\d+>' => 'help/info',
 
                 new GroupUrlRule([
                     'prefix' => 'user',
