@@ -2,8 +2,13 @@
 $this->title = 'FAQ | Customer Support | ArcheWorld';
 ?>
 
+<?php
+$this->beginBlock('head');
+?>
 <link rel="stylesheet" href="/resources-202501091402/css/cs/help.css">
-
+<?php
+$this->endBlock();
+?>
 
 <section class="container">
 

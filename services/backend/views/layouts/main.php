@@ -58,6 +58,9 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     <title><?= Html::encode($this->title) ?></title>
     <meta name="fbTitle" property="og:title" content="<?= Html::encode($this->title) ?>"/>
     <?php $this->head() ?>
+    <?php if (isset($this->blocks['head'])): ?>
+        <?= $this->blocks['head'] ?>
+    <?php endif; ?>
 </head>
 <body>
 <div class="wrap">
