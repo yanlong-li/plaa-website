@@ -9,19 +9,38 @@ use yii\helpers\Html;
 
 $this->title = $name;
 ?>
-<div class="site-error">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" type="image/x-icon" href="/resources-202501091402/images/common/favicon.ico" />
+    <title>ArcheWorld</title>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/resources-202501091402/js/share/lib/html5shiv/html5shiv.min.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link rel="stylesheet" href="/resources-202501091402/css/errorpage.css" type="text/css" />
+</head>
+<body>
+<section class="errorpage">
+    <div class="bar"></div>
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <div class="cont">
+        <img src="/resources-202501091402/images/util/emblem.png" alt="" />
+        <strong>ArcheWorld</strong>
+        <p>
 
-    <div class="alert alert-danger">
-        <?= nl2br(Html::encode($message)) ?>
+
+            <?= Html::encode($this->title) ?><br><?= nl2br(Html::encode($message)) ?>
+
+
+        </p>
+        <div class="wrap-btn">
+            <button class="btn" onclick="history.go(-1);return false;" type="button">Go back</button>
+        </div>
     </div>
-
-    <p>
-        The above error occurred while the Web server was processing your request.
-    </p>
-    <p>
-        Please contact us if you think this is a server error. Thank you.
-    </p>
-
-</div>
+</section>
+</body>
+</html>

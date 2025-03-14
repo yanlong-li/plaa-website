@@ -12,11 +12,14 @@ class UserController extends Controller
         'login',
         'register',
         'logout',
+        '*',
     ];
+
+    public $layout = 'member';
 
     public function actionInfo()
     {
-        return $this->success(\Yii::$app->user->identity);
+        return $this->render();
     }
 
     public function actionLogin()
@@ -45,12 +48,32 @@ class UserController extends Controller
 
     public function actionRegister()
     {
-
+        return $this->render();
     }
 
     public function actionLogout()
     {
-        \Yii::$app->user->logout();
-        return $this->success();
+        return $this->render();
+    }
+
+
+    public function actionLoginForm()
+    {
+        return $this->render();
+    }
+
+    public function actionFindIdForm()
+    {
+        return $this->render();
+    }
+
+    public function actionFindPasswordForm()
+    {
+        return $this->render();
+    }
+
+    public function actionJoinAgreement()
+    {
+        return $this->render();
     }
 }

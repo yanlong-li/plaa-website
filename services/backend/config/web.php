@@ -1,5 +1,7 @@
 <?php
 
+use yii\web\GroupUrlRule;
+
 $params = require __DIR__ . '/params.php';
 
 $config = [
@@ -51,9 +53,9 @@ $config = [
         ],
         'db'           => [
             'class'    => 'yii\db\Connection',
-            'dsn'      => 'mysql:host=100.126.86.31;dbname=aaemu_plaa',
-            'username' => 'archeage',
-            'password' => 'archeage',
+            'dsn'      => 'mysql:host=vm2;dbname=aaemu_plaa',
+            'username' => 'root',
+            'password' => '123456',
             'charset'  => 'utf8mb4',
 
             // Schema cache options (for production environment)
@@ -63,43 +65,55 @@ $config = [
         ],
         'loginDb'      => [
             'class'    => 'yii\db\Connection',
-            'dsn'      => 'mysql:host=100.126.86.31;dbname=aaemu_login',
-            'username' => 'archeage',
-            'password' => 'archeage',
+            'dsn'      => 'mysql:host=vm2;dbname=aaemu_login',
+            'username' => 'root',
+            'password' => '123456',
             'charset'  => 'utf8mb4',
         ],
         'gameDb2'      => [
             'class'    => 'yii\db\Connection',
-            'dsn'      => 'mysql:host=100.126.86.31;dbname=aaemu_game',
-            'username' => 'archeage',
-            'password' => 'archeage',
+            'dsn'      => 'mysql:host=vm2;dbname=aaemu_game',
+            'username' => 'root',
+            'password' => '123456',
             'charset'  => 'utf8mb4',
         ],
         'urlManager'   => [
             'enablePrettyUrl' => true,
             'showScriptName'  => false,
             'rules'           => [
+                '/news/<id:\d+>'  => 'news/info',
+                '/guide/<id:\d+>' => 'guide/info',
+
+                new GroupUrlRule([
+                    'prefix' => 'user',
+                    'rules'  => [
+                        'login/form' => 'login-form',
+                        'find/id/form' => 'find-id-form',
+                        'find/password/form' => 'find-password-form',
+                        'join/agreement' => 'join-agreement',
+                    ],
+                ]),
             ],
         ],
     ],
     'params'     => $params,
 ];
 
-if (YII_ENV_DEV) {
-    // configuration adjustments for 'dev' environment
-    $config['bootstrap'][]      = 'debug';
-    $config['modules']['debug'] = [
-        'class' => 'yii\debug\Module',
-        // uncomment the following to add your IP if you are not connecting from localhost.
-        //'allowedIPs' => ['127.0.0.1', '::1'],
-    ];
-
-    $config['bootstrap'][]    = 'gii';
-    $config['modules']['gii'] = [
-        'class' => 'yii\gii\Module',
-        // uncomment the following to add your IP if you are not connecting from localhost.
-        //'allowedIPs' => ['127.0.0.1', '::1'],
-    ];
-}
+//if (YII_ENV_DEV) {
+//    // configuration adjustments for 'dev' environment
+//    $config['bootstrap'][]      = 'debug';
+//    $config['modules']['debug'] = [
+//        'class' => 'yii\debug\Module',
+//        // uncomment the following to add your IP if you are not connecting from localhost.
+//        //'allowedIPs' => ['127.0.0.1', '::1'],
+//    ];
+//
+//    $config['bootstrap'][]    = 'gii';
+//    $config['modules']['gii'] = [
+//        'class' => 'yii\gii\Module',
+//        // uncomment the following to add your IP if you are not connecting from localhost.
+//        //'allowedIPs' => ['127.0.0.1', '::1'],
+//    ];
+//}
 
 return $config;

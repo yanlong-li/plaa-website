@@ -1,6 +1,6 @@
 <?php
 
-$pdo = new PDO('mysql:host=100.126.86.31;dbname=aaemu_login', 'archeage', 'archeage');
+$pdo = new PDO('mysql:host=vm2;dbname=aaemu_login', 'root', '123456');
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 global $pdo;
 
@@ -14,13 +14,10 @@ function getServerDbById($id)
     }
 
     $dns = [
-               1 => 'mysql:host=100.72.249.21;dbname=aaemu_game',
-               2 => 'mysql:host=100.126.86.31;dbname=aaemu_game',
-               3 => 'mysql:host=100.115.127.38;dbname=aaemu_game',
-               4 => 'mysql:host=100.126.86.31;dbname=aaemu_game_plaa',
+               1 => 'mysql:host=vm2;dbname=aaemu_game',
            ][$id];
 
-    $pdo = new PDO($dns, 'archeage', 'archeage');
+    $pdo = new PDO($dns, 'root', '123456');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     $serverPdo[$id] = $pdo;
@@ -35,7 +32,7 @@ function getLocalDb()
         return $local;
     }
 
-    $local = new PDO('mysql:host=100.126.86.31;dbname=aaemu_plaa', 'archeage', 'archeage');
+    $local = new PDO('mysql:host=vm2;dbname=aaemu_plaa', 'root', '123456');
     $local->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     return $local;

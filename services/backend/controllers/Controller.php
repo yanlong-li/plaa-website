@@ -69,4 +69,10 @@ abstract class Controller extends \yii\web\Controller
             'msg'  => $msg,
         ]);
     }
+
+    public function render($view = null, $params = [])
+    {
+        $content = $this->getView()->render($view ?? $this->action->id, $params, $this);
+        return $this->renderContent($content);
+    }
 }
