@@ -1,0 +1,111 @@
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body, input, textarea, select, table, button { letter-spacing: -0.1rem; font-family: -apple-system, "Malgun Gothic", "Apple SD Gothic Neo", "Microsoft NeoGothic", "Microsoft JhengHei", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Segoe UI Symbol", "Android Emoji", EmojiSymbols; }
+
+html { font-size: 62.5%; }
+
+fieldset, img { border: 0 none; }
+
+fieldset { clear: both; }
+
+legend { display: none; }
+
+em, address { font-style: normal; }
+
+ul, ol, dl { list-style: none; }
+
+button { cursor: pointer; border: 0 none; }
+
+hr { clear: both; }
+
+label { cursor: pointer; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+a { text-decoration: none; cursor: pointer; }
+a:hover, a.active { text-decoration: none; }
+
+img { vertical-align: top; }
+
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus { outline: none; }
+
+header, hgroup, article, nav, footer, figure, figcaption, canvas, section, menu, details, aside { display: block; }
+
+button, input { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }
+
+button, input, textarea { margin: 0; }
+
+input, label { vertical-align: middle; }
+
+input[type='checkbox'], input[type='radio'] { margin: 0; padding: 0; *margin: -3px; *margin-left: -4px; }
+
+a:active { background-color: inherit; }
+
+html, body { width: 100%; height: 100%; }
+
+.mgmt { width: 100%; height: 100%; text-align: center; display: flex; flex-direction: column; }
+.mgmt .bar { background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM5ZjZmZmUiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2MGM0ZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='); background-size: 100%; background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(50%, #9f6ffe), color-stop(100%, #60c4ff)); background-image: -moz-linear-gradient(left, #9f6ffe 50%, #60c4ff 100%); background-image: -webkit-linear-gradient(left, #9f6ffe 50%, #60c4ff 100%); background-image: linear-gradient(to right, #9f6ffe 50%, #60c4ff 100%); height: 0.2rem; }
+
+@media screen and (max-width: 767px) { .mgmt { background: url("/aw-download1.archeworld.com/web/service/restricted/util/bg-m.jpg") no-repeat center 0; background-size: cover; min-height: 60rem; }
+  .mgmt .inner { position: relative; flex: 1; }
+  .mgmt .cont { position: absolute; top: 50%; left: 0; width: 100%; height: 30rem; margin-top: -15rem; text-align: center; }
+  .mgmt .cont img { width: 18.9rem; height: 14.5rem; }
+  .mgmt .cont span { display: block; color: #bcbcbc; font-size: 1.4rem; margin-top: 1rem; }
+  .mgmt .cont strong { display: block; color: #fefefe; font-size: 3.5rem; letter-spacing: -0.3rem; margin: 1rem 0 0.5rem; }
+  .mgmt .cont .time { background: linear-gradient(to right, #9f6ffe 20%, #6cb4ff 70%); background-clip: text; -webkit-background-clip: text; color: transparent; font-size: 2rem; font-weight: bold; }
+  .mgmt .cont .utc { display: inline-block; color: #1c1c1c; font-size: 1rem; font-weight: bold; background-color: #5ebaf1; -moz-border-radius: 0.2rem; -webkit-border-radius: 0.2rem; border-radius: 0.2rem; width: 4rem; height: 1.4rem; line-height: 1.4; vertical-align: top; margin-left: 0.5rem; }
+  .mgmt .footer { height: 18rem; background-color: #000; }
+  .mgmt .footer .footer-inner { margin: 0 1rem; }
+  .mgmt .footer .footer-inner .footer-link-channel { display: flex; justify-content: center; padding: 2.6rem 0 2.4rem; border-image: linear-gradient(to right, rgba(54, 54, 54, 0.1) 2%, #363636 5%, #363636 96%, rgba(54, 54, 54, 0.1) 100%); border-bottom: 1px solid transparent; border-image-slice: 1; }
+  .mgmt .footer .footer-inner .footer-link-channel li { display: flex; justify-content: center; width: 6.5rem; margin: 0 1rem; }
+  .mgmt .footer .footer-inner .footer-link-channel li a { display: flex; justify-content: center; align-items: center; color: #fff; font-size: 2rem; width: 6.5rem; height: 4rem; -moz-border-radius: 4rem; -webkit-border-radius: 4rem; border-radius: 4rem; background-color: rgba(255, 255, 255, 0.15); }
+  .mgmt .footer .footer-inner .footer-link-channel li a .ico-footer-discord { width: 2.4rem; height: 1.9rem; background: url("/aw-download1.archeworld.com/web/service/restricted/util/ico-footer-discord.png") no-repeat 0 0; background-size: 100% 100%; }
+  .mgmt .footer .footer-inner .footer-link-channel li a .ico-footer-telegram { width: 1.9rem; height: 1.9rem; background: url("/aw-download1.archeworld.com/web/service/restricted/util/ico-footer-telegram.png") no-repeat 0 0; background-size: 100% 100%; }
+  .mgmt .footer .footer-inner .footer-link-channel li a .ico-footer-x { width: 2rem; height: 1.9rem; background: url("/aw-download1.archeworld.com/web/service/restricted/util/ico-footer-x.png") no-repeat 0 0; background-size: 100% 100%; }
+  .mgmt .footer .footer-inner .footer-link-channel li a .ico-footer-youtube { width: 2.6rem; height: 1.9rem; background: url("/aw-download1.archeworld.com/web/service/restricted/util/ico-footer-youtube.png") no-repeat 0 0; background-size: 100% 100%; }
+  .mgmt .footer .footer-inner .footer-link-channel li a span { padding-left: 1rem; }
+  .mgmt .footer .footer-inner address { display: flex; justify-content: center; border-image: linear-gradient(to right, rgba(32, 32, 32, 0.1) 2%, #202020 5%, #202020 96%, rgba(32, 32, 32, 0.1) 100%); border-top: 1px solid transparent; border-image-slice: 1; padding: 1.6rem 0 0; }
+  .mgmt .footer .footer-inner address .copyright { display: inline-block; color: #8f8f8f; font-size: 1.2rem; margin: 0 1rem; }
+  .mgmt .footer .footer-inner address .footer-xlgames { display: inline-block; margin: -0.5rem 1rem 0; font-size: 0; line-height: 0; width: 7.4rem; height: 1.7rem; background: url("/aw-download1.archeworld.com/web/service/restricted/util/footer-xlgames.png") no-repeat 0 0; } }
+@media screen and (min-width: 767px) and (max-width: 1199px) { .mgmt { background: url("/aw-download1.archeworld.com/web/service/restricted/util/bg.jpg") no-repeat center 0; background-size: cover; min-height: 100rem; }
+  .mgmt .inner { position: relative; height: 100%; padding-bottom: 58.4rem; flex: 1; }
+  .mgmt .cont { position: absolute; top: 50%; left: 0; width: 100%; height: 60rem; margin-top: -25rem; text-align: center; }
+  .mgmt .cont span { display: block; color: #bcbcbc; font-size: 2.4rem; margin-top: 2rem; }
+  .mgmt .cont strong { display: block; color: #fefefe; font-size: 6rem; letter-spacing: -0.3rem; margin: 2rem 0 1rem; }
+  .mgmt .cont .time { background: linear-gradient(to right, #9f6ffe 20%, #6cb4ff 70%); background-clip: text; -webkit-background-clip: text; color: transparent; font-size: 3.2rem; font-weight: bold; }
+  .mgmt .cont .utc { display: inline-block; color: #1c1c1c; font-size: 1rem; font-weight: bold; background-color: #5ebaf1; -moz-border-radius: 0.3rem; -webkit-border-radius: 0.3rem; border-radius: 0.3rem; width: 4rem; height: 1.4rem; vertical-align: 1.2rem; margin-left: 1rem; }
+  .mgmt .footer { height: 18rem; background-color: #000; }
+  .mgmt .footer .footer-inner { margin: 0 2.4rem; }
+  .mgmt .footer .footer-inner .footer-link-channel { display: flex; justify-content: center; padding: 2.6rem 0 2.4rem; border-image: linear-gradient(to right, rgba(54, 54, 54, 0.1) 2%, #363636 5%, #363636 96%, rgba(54, 54, 54, 0.1) 100%); border-bottom: 1px solid transparent; border-image-slice: 1; }
+  .mgmt .footer .footer-inner .footer-link-channel li { display: flex; justify-content: center; width: 8rem; margin: 0 1.5rem; }
+  .mgmt .footer .footer-inner .footer-link-channel li a { display: flex; justify-content: center; align-items: center; color: #fff; font-size: 2rem; width: 8rem; height: 4.8rem; -moz-border-radius: 4.8rem; -webkit-border-radius: 4.8rem; border-radius: 4.8rem; background-color: rgba(255, 255, 255, 0.15); }
+  .mgmt .footer .footer-inner .footer-link-channel li a .ico-footer-discord { width: 3.4rem; height: 2.6rem; background: url("/aw-download1.archeworld.com/web/service/restricted/util/ico-footer-discord.png") no-repeat 0 0; background-size: 100% 100%; }
+  .mgmt .footer .footer-inner .footer-link-channel li a .ico-footer-telegram { width: 2.6rem; height: 2.6rem; background: url("/aw-download1.archeworld.com/web/service/restricted/util/ico-footer-telegram.png") no-repeat 0 0; background-size: 100% 100%; }
+  .mgmt .footer .footer-inner .footer-link-channel li a .ico-footer-x { width: 2.8rem; height: 2.6rem; background: url("/aw-download1.archeworld.com/web/service/restricted/util/ico-footer-x.png") no-repeat 0 0; background-size: 100% 100%; }
+  .mgmt .footer .footer-inner .footer-link-channel li a .ico-footer-youtube { width: 3.6rem; height: 2.6rem; background: url("/aw-download1.archeworld.com/web/service/restricted/util/ico-footer-youtube.png") no-repeat 0 0; background-size: 100% 100%; }
+  .mgmt .footer .footer-inner .footer-link-channel li a span { padding-left: 1rem; }
+  .mgmt .footer .footer-inner address { display: flex; justify-content: center; border-image: linear-gradient(to right, rgba(32, 32, 32, 0.1) 2%, #202020 5%, #202020 96%, rgba(32, 32, 32, 0.1) 100%); border-top: 1px solid transparent; border-image-slice: 1; padding: 1.6rem 0 0; }
+  .mgmt .footer .footer-inner address .copyright { display: inline-block; color: #8f8f8f; font-size: 1.2rem; margin: 0 1.5rem; }
+  .mgmt .footer .footer-inner address .footer-xlgames { display: inline-block; margin: -0.5rem 1.5rem 0; font-size: 0; line-height: 0; width: 7.4rem; height: 1.7rem; background: url("/aw-download1.archeworld.com/web/service/restricted/util/footer-xlgames.png") no-repeat 0 0; } }
+@media screen and (min-width: 1199px) { .mgmt { background: url("/aw-download1.archeworld.com/web/service/restricted/util/bg.jpg") no-repeat center 0; background-size: cover; min-height: 75rem; }
+  .mgmt .inner { position:relative; flex: 1; }
+  .mgmt .cont { position: absolute; top: 50%; left: 50%; width: 100rem; height: 55rem; margin: -27.5rem -50rem; text-align: center; }
+  .mgmt .cont span { display: block; color: #bcbcbc; font-size: 2.4rem; margin-top: 2rem; }
+  .mgmt .cont strong { display: block; color: #fefefe; font-size: 6rem; letter-spacing: -0.3rem; margin: 2rem 0 1rem; }
+  .mgmt .cont .time { background: linear-gradient(to right, #9f6ffe 20%, #6cb4ff 70%); background-clip: text; -webkit-background-clip: text; color: transparent; font-size: 3.2rem; font-weight: bold; }
+  .mgmt .cont .utc { display: inline-block; color: #1c1c1c; font-size: 1rem; font-weight: bold; background-color: #5ebaf1; -moz-border-radius: 0.3rem; -webkit-border-radius: 0.3rem; border-radius: 0.3rem; width: 4rem; height: 1.4rem; vertical-align: 1.2rem; margin-left: 1rem; }
+  .mgmt .cont .wrap-btn { margin-top: 3rem; }
+  .mgmt .cont .wrap-btn .btn { width: 17.4rem; height: 4.8rem; background-color: rgba(255, 255, 255, 0.15); color: #fff; font-size: 2rem; line-height: 4.8rem; text-align: center; -moz-border-radius: 4.8rem; -webkit-border-radius: 4.8rem; border-radius: 4.8rem; }
+  .mgmt .footer { height: 18rem; background-color: #000; }
+  .mgmt .footer .footer-inner { width: 105rem; margin: 0 auto; }
+  .mgmt .footer .footer-inner .footer-link-channel { display: flex; justify-content: center; padding: 2.6rem 0 2.4rem; border-image: linear-gradient(to right, rgba(54, 54, 54, 0.1) 2%, #363636 5%, #363636 96%, rgba(54, 54, 54, 0.1) 100%); border-bottom: 1px solid transparent; border-image-slice: 1; }
+  .mgmt .footer .footer-inner .footer-link-channel li { display: flex; justify-content: center; width: 8rem; margin: 0 1.5rem; }
+  .mgmt .footer .footer-inner .footer-link-channel li a { display: flex; justify-content: center; align-items: center; color: #fff; font-size: 2rem; width: 8rem; height: 4.8rem; -moz-border-radius: 4.8rem; -webkit-border-radius: 4.8rem; border-radius: 4.8rem; background-color: rgba(255, 255, 255, 0.15); }
+  .mgmt .footer .footer-inner .footer-link-channel li a .ico-footer-discord { width: 3.4rem; height: 2.6rem; background: url("/aw-download1.archeworld.com/web/service/restricted/util/ico-footer-discord.png") no-repeat 0 0; background-size: 100% 100%; }
+  .mgmt .footer .footer-inner .footer-link-channel li a .ico-footer-telegram { width: 2.6rem; height: 2.6rem; background: url("/aw-download1.archeworld.com/web/service/restricted/util/ico-footer-telegram.png") no-repeat 0 0; background-size: 100% 100%; }
+  .mgmt .footer .footer-inner .footer-link-channel li a .ico-footer-x { width: 2.8rem; height: 2.6rem; background: url("/aw-download1.archeworld.com/web/service/restricted/util/ico-footer-x.png") no-repeat 0 0; background-size: 100% 100%; }
+  .mgmt .footer .footer-inner .footer-link-channel li a .ico-footer-youtube { width: 3.6rem; height: 2.6rem; background: url("/aw-download1.archeworld.com/web/service/restricted/util/ico-footer-youtube.png") no-repeat 0 0; background-size: 100% 100%; }
+  .mgmt .footer .footer-inner .footer-link-channel li a span { padding-left: 1rem; }
+  .mgmt .footer .footer-inner address { display: flex; justify-content: center; border-image: linear-gradient(to right, rgba(32, 32, 32, 0.1) 2%, #202020 5%, #202020 96%, rgba(32, 32, 32, 0.1) 100%); border-top: 1px solid transparent; border-image-slice: 1; padding: 1.6rem 25rem 0; }
+  .mgmt .footer .footer-inner address .copyright { display: inline-block; color: #8f8f8f; font-size: 1.2rem; margin: 0 1.5rem; }
+  .mgmt .footer .footer-inner address .footer-xlgames { display: inline-block; margin: -0.5rem 1.5rem 0; font-size: 0; line-height: 0; width: 7.4rem; height: 1.7rem; background: url("/aw-download1.archeworld.com/web/service/restricted/util/footer-xlgames.png") no-repeat 0 0; } }

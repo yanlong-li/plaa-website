@@ -24,6 +24,11 @@ class SiteController extends Controller
             ],
         ];
     }
+    public function actionRestricted()
+    {
+        $this->layout = false;
+        return $this->render('restricted');
+    }
 
     /**
      * Displays homepage.
