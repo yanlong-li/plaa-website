@@ -71,7 +71,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                     <h1 class="global-gnb-logo">XLGAMES</h1>
                     <ul class="company-site">
                         <li><a href="/">上古世界</a></li>
-                        <li><a href="https://www.xbluesalt.io">蓝盐商会</a></li>
+                        <li><a href="/www.xbluesalt.io">蓝盐商会</a></li>
                     </ul>
                 </div>
                 <div class="account-util">
@@ -125,7 +125,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                                     </ul>
                                 </div>
                             </li>
-                            <li class="m5" id="menu_xbluesalt"><a href="https://www.xbluesalt.io" class="navi-link">蓝盐商会</a>
+                            <li class="m5" id="menu_xbluesalt"><a href="/www.xbluesalt.io" class="navi-link">蓝盐商会</a>
                                 <div class="sub-navi">
                                     <ul>
                                         <li id="menu_sub_bslt"><a href="https://bslt.asia.xbluesalt.io/bslt"

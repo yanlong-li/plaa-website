@@ -1,0 +1,374 @@
+{
+  "isError": false,
+  "scopes": [
+    {
+      "id": 7816452,
+      "txHash": "0x7DE426108D61805A24750C7F30238EEFE3F3DFE5AE00759EB091D13DBF26BAD7",
+      "time": "Mar 17, 2025 08:00:12 / UTC \u002B0",
+      "from": "0x4d07db1a1e3cd157473f0ee2de4e4d109639003d",
+      "to": "0x61da6e3d80c607a1b2d006575228bddcf4600616",
+      "txType": "Auction",
+      "amount": "   20.0000"
+    },
+    {
+      "id": 7816451,
+      "txHash": "0x0A75D4FB450D3AE2DA21D7B28D81328D487878C9874C38273464E3FAC516E24A",
+      "time": "Mar 17, 2025 07:43:43 / UTC \u002B0",
+      "from": "0x9a77eaeadbf1ba15a4f26509098de593ebf5529e",
+      "to": "0xd90a8a8b9d0294a62155c2c92083d2dae94bf838",
+      "txType": "Auction",
+      "amount": "    2.3000"
+    },
+    {
+      "id": 7816450,
+      "txHash": "0x47AD12C14ED120698508EB59598E8CC247615563CB92F739407FA6E69BF9278D",
+      "time": "Mar 17, 2025 07:41:17 / UTC \u002B0",
+      "from": "0x3e160b9d3243900052b5f3555d034dec25d371fa",
+      "to": "0xbdabde042cfbc884e5ad7f57b1b11e6aa5473bc6",
+      "txType": "Auction",
+      "amount": "   62.0000"
+    },
+    {
+      "id": 7816449,
+      "txHash": "0x604D9DA8B883270E79E32AAA1496A35D65B5C7CB8312A36D7D94101DDA5E3CB3",
+      "time": "Mar 17, 2025 07:37:13 / UTC \u002B0",
+      "from": "0xd896110cd53a008ecac6faeb0da84553f73b886c",
+      "to": "0x1803390457349aa2d88859121f247b45d13242fa",
+      "txType": "Auction",
+      "amount": "   43.0000"
+    },
+    {
+      "id": 7816448,
+      "txHash": "0xF4FE7D52B74C895B465F8E9590B43E2FA823D6D603D72FF68960266A65531DA8",
+      "time": "Mar 17, 2025 07:37:12 / UTC \u002B0",
+      "from": "0xd896110cd53a008ecac6faeb0da84553f73b886c",
+      "to": "0x1803390457349aa2d88859121f247b45d13242fa",
+      "txType": "Auction",
+      "amount": "   43.0000"
+    },
+    {
+      "id": 7816447,
+      "txHash": "0x677BEECB0E51E77C24B74E6BA67F2879ED2D0C00FC06DF2502D6FEEA481E2A74",
+      "time": "Mar 17, 2025 07:30:32 / UTC \u002B0",
+      "from": "0x1cb38fbe8960a0b46237704afe7d54232534a702",
+      "to": "0x2deef3006e91a04c13d4c800c2e1aa238b755010",
+      "txType": "Auction",
+      "amount": "    8.0000"
+    },
+    {
+      "id": 7816446,
+      "txHash": "0x3B27FB4C552D84AB5B4EE47DDCA8DF8738C5EAE96B730267C15E72C93895450B",
+      "time": "Mar 17, 2025 07:30:31 / UTC \u002B0",
+      "from": "0x1cb38fbe8960a0b46237704afe7d54232534a702",
+      "to": "0x2deef3006e91a04c13d4c800c2e1aa238b755010",
+      "txType": "Auction",
+      "amount": "    8.0000"
+    },
+    {
+      "id": 7816445,
+      "txHash": "0xF4B323E8B57B7476E86AA8CC5A81F6BF63443B9386057740E2F4FBA8EE191193",
+      "time": "Mar 17, 2025 07:30:30 / UTC \u002B0",
+      "from": "0x1cb38fbe8960a0b46237704afe7d54232534a702",
+      "to": "0x2deef3006e91a04c13d4c800c2e1aa238b755010",
+      "txType": "Auction",
+      "amount": "    8.0000"
+    },
+    {
+      "id": 7816444,
+      "txHash": "0x82A4D58DA83C8CF2FA06DAEF06C526D9976F82EC82FC7420EFFC503645BBB0E1",
+      "time": "Mar 17, 2025 07:30:28 / UTC \u002B0",
+      "from": "0x1cb38fbe8960a0b46237704afe7d54232534a702",
+      "to": "0x2deef3006e91a04c13d4c800c2e1aa238b755010",
+      "txType": "Auction",
+      "amount": "    8.0000"
+    },
+    {
+      "id": 7816443,
+      "txHash": "0xBF198A56586A12CFD2849E52C866370170522156641C95BF7B326D5F40EBE099",
+      "time": "Mar 17, 2025 07:30:27 / UTC \u002B0",
+      "from": "0x1cb38fbe8960a0b46237704afe7d54232534a702",
+      "to": "0x2deef3006e91a04c13d4c800c2e1aa238b755010",
+      "txType": "Auction",
+      "amount": "    8.0000"
+    },
+    {
+      "id": 7816442,
+      "txHash": "0xD21AB522A2CDADD32D47C371B3B7E6583DD8F64DB56ABA1D53C8E16EDB960A5D",
+      "time": "Mar 17, 2025 07:30:26 / UTC \u002B0",
+      "from": "0x1cb38fbe8960a0b46237704afe7d54232534a702",
+      "to": "0x2deef3006e91a04c13d4c800c2e1aa238b755010",
+      "txType": "Auction",
+      "amount": "    8.0000"
+    },
+    {
+      "id": 7816441,
+      "txHash": "0xE06FF5B4F2D941CC0650B36294FBE5B0CE861625807D47147FA2DDE4A638302F",
+      "time": "Mar 17, 2025 07:30:25 / UTC \u002B0",
+      "from": "0x1cb38fbe8960a0b46237704afe7d54232534a702",
+      "to": "0x2deef3006e91a04c13d4c800c2e1aa238b755010",
+      "txType": "Auction",
+      "amount": "    8.0000"
+    },
+    {
+      "id": 7816440,
+      "txHash": "0xEB5C3FF04EC335F49E33BDBBB8A199F2E10BD21F3FD4CF4B59F7E1CAEFF900C9",
+      "time": "Mar 17, 2025 07:27:39 / UTC \u002B0",
+      "from": "0x4bdd8a12df39ac941f55055a0172d39be5ab0f7b",
+      "to": "0xac12cdb8050809a0058e6a84c0e61695352d1b1e",
+      "txType": "Auction",
+      "amount": "   24.0000"
+    },
+    {
+      "id": 7816439,
+      "txHash": "0xCDD771F52F76024705CB58953FFA7E65EB2880522F2C348DC75644A709053807",
+      "time": "Mar 17, 2025 07:27:30 / UTC \u002B0",
+      "from": "0x4bdd8a12df39ac941f55055a0172d39be5ab0f7b",
+      "to": "0x22d135c2788f1071ed0816287bf1773f39122fed",
+      "txType": "Auction",
+      "amount": "  132.4000"
+    },
+    {
+      "id": 7816438,
+      "txHash": "0x347CB9A9420CE7273A36DAEB1FFA624A45D4D33BB0FFD195EC05E252EDE5F33B",
+      "time": "Mar 17, 2025 07:06:54 / UTC \u002B0",
+      "from": "0x12416b4355314103908151d7aeedb8050d1201e4",
+      "to": "0xfa0f779bc5adee6e07424e0cad69c1aa8dd5e4b9",
+      "txType": "Auction",
+      "amount": "   21.9000"
+    },
+    {
+      "id": 7816437,
+      "txHash": "0xAC1676AC1C569F489B773658A2974E9C2C80223F8B974604E5312DAA5F68B1DE",
+      "time": "Mar 17, 2025 07:06:51 / UTC \u002B0",
+      "from": "0x12416b4355314103908151d7aeedb8050d1201e4",
+      "to": "0x38fa1a1a37f53e75771dfb8c1233c50c9444845e",
+      "txType": "Auction",
+      "amount": "   21.5000"
+    },
+    {
+      "id": 7816436,
+      "txHash": "0x60D93C61E6CE16284A8D851E00399426645A20A549D0A1CAA5A7B7375BAD1A80",
+      "time": "Mar 17, 2025 07:06:48 / UTC \u002B0",
+      "from": "0x12416b4355314103908151d7aeedb8050d1201e4",
+      "to": "0x38fa1a1a37f53e75771dfb8c1233c50c9444845e",
+      "txType": "Auction",
+      "amount": "   21.5000"
+    },
+    {
+      "id": 7816435,
+      "txHash": "0x95FC46472DEDEE0C396C88A5B5DB47E97EE80289FB863450E321ACB60FAC309B",
+      "time": "Mar 17, 2025 07:06:45 / UTC \u002B0",
+      "from": "0x12416b4355314103908151d7aeedb8050d1201e4",
+      "to": "0x38fa1a1a37f53e75771dfb8c1233c50c9444845e",
+      "txType": "Auction",
+      "amount": "   21.5000"
+    },
+    {
+      "id": 7816434,
+      "txHash": "0x927DEB22BEF0C799B3FF3F63842FDCD01FD815AAB869A6F953A7B5C0850BED25",
+      "time": "Mar 17, 2025 07:06:42 / UTC \u002B0",
+      "from": "0x12416b4355314103908151d7aeedb8050d1201e4",
+      "to": "0x61da6e3d80c607a1b2d006575228bddcf4600616",
+      "txType": "Auction",
+      "amount": "   21.3000"
+    },
+    {
+      "id": 7816433,
+      "txHash": "0x8CDA1E9438A620AED926E644A7FF1AB11F8567D3055C8CB6936ED01A38A57315",
+      "time": "Mar 17, 2025 07:02:38 / UTC \u002B0",
+      "from": "0xe55975abab5f5f028c80f35760aaaf3bbd09721c",
+      "to": "0x172d9ed4db4748a6c6e9d105d669fb5f727f1c36",
+      "txType": "Auction",
+      "amount": "   80.0000"
+    },
+    {
+      "id": 7816432,
+      "txHash": "0x6535198F8C997C75AE20147FE4A40BAEBDAAB1A0B136E05562F7914C5C119FBE",
+      "time": "Mar 17, 2025 06:53:31 / UTC \u002B0",
+      "from": "0x61da6e3d80c607a1b2d006575228bddcf4600616",
+      "to": "0x03fcc9bdc0379a458c7f90236930bee35cedc515",
+      "txType": "Auction",
+      "amount": "    8.9000"
+    },
+    {
+      "id": 7816431,
+      "txHash": "0x9767F0E29BD3676B525C49E5ED81D099240E3DCF8C89DF2CBA8259699EF6BF23",
+      "time": "Mar 17, 2025 06:53:30 / UTC \u002B0",
+      "from": "0x61da6e3d80c607a1b2d006575228bddcf4600616",
+      "to": "0xb0516916ee0d24319df1bffee5cacb30e1aeb9dd",
+      "txType": "Auction",
+      "amount": "    8.9000"
+    },
+    {
+      "id": 7816430,
+      "txHash": "0xF5EDADE9D007767E0097A842993D831685099D8AB71FDB95EB6D4AD57FC3F860",
+      "time": "Mar 17, 2025 06:53:28 / UTC \u002B0",
+      "from": "0x61da6e3d80c607a1b2d006575228bddcf4600616",
+      "to": "0xb0516916ee0d24319df1bffee5cacb30e1aeb9dd",
+      "txType": "Auction",
+      "amount": "    8.9000"
+    },
+    {
+      "id": 7816429,
+      "txHash": "0x4554BF75D24E846A5D3521ACEC58B37E5E73B25C3FF60ED53E6C82D038CB41D6",
+      "time": "Mar 17, 2025 06:53:27 / UTC \u002B0",
+      "from": "0x61da6e3d80c607a1b2d006575228bddcf4600616",
+      "to": "0xb0516916ee0d24319df1bffee5cacb30e1aeb9dd",
+      "txType": "Auction",
+      "amount": "    8.9000"
+    },
+    {
+      "id": 7816428,
+      "txHash": "0x1C996CEFD0E4CC8E5762EA14B5F3F9F8151D104AA62E7835DB4229FB76D7B586",
+      "time": "Mar 17, 2025 06:53:25 / UTC \u002B0",
+      "from": "0x61da6e3d80c607a1b2d006575228bddcf4600616",
+      "to": "0xb0516916ee0d24319df1bffee5cacb30e1aeb9dd",
+      "txType": "Auction",
+      "amount": "    8.9000"
+    },
+    {
+      "id": 7816427,
+      "txHash": "0xC861367D15229095ED44C95A6E508FEA7BDFD020F156EAC5EBD3C97C35986020",
+      "time": "Mar 17, 2025 06:53:24 / UTC \u002B0",
+      "from": "0x61da6e3d80c607a1b2d006575228bddcf4600616",
+      "to": "0xb0516916ee0d24319df1bffee5cacb30e1aeb9dd",
+      "txType": "Auction",
+      "amount": "    8.9000"
+    },
+    {
+      "id": 7816426,
+      "txHash": "0x6B2ABC9DDC7A0B3FF43057873D4DB1815052DFF025ABB821269A57FD2F8EC0AB",
+      "time": "Mar 17, 2025 06:53:22 / UTC \u002B0",
+      "from": "0x61da6e3d80c607a1b2d006575228bddcf4600616",
+      "to": "0xb0516916ee0d24319df1bffee5cacb30e1aeb9dd",
+      "txType": "Auction",
+      "amount": "    8.9000"
+    },
+    {
+      "id": 7816425,
+      "txHash": "0x287B03F8252CCB5605550519291371436272CF74FF24C416D8EFE71F69FDB1B6",
+      "time": "Mar 17, 2025 06:53:21 / UTC \u002B0",
+      "from": "0x61da6e3d80c607a1b2d006575228bddcf4600616",
+      "to": "0xb0516916ee0d24319df1bffee5cacb30e1aeb9dd",
+      "txType": "Auction",
+      "amount": "    8.9000"
+    },
+    {
+      "id": 7816424,
+      "txHash": "0xB9D5B1B1D2B7FF887CCECE3E660BE8E3DABD0E1CE0FA285D5560E07AC4AA83CC",
+      "time": "Mar 17, 2025 06:53:19 / UTC \u002B0",
+      "from": "0x61da6e3d80c607a1b2d006575228bddcf4600616",
+      "to": "0xb0516916ee0d24319df1bffee5cacb30e1aeb9dd",
+      "txType": "Auction",
+      "amount": "    8.9000"
+    },
+    {
+      "id": 7816423,
+      "txHash": "0xB850F431720FD8F246A14F00E9E582CF1E08BF3D209AEF583C618895AFA5D8E0",
+      "time": "Mar 17, 2025 06:49:17 / UTC \u002B0",
+      "from": "0x4d07db1a1e3cd157473f0ee2de4e4d109639003d",
+      "to": "0xb3fa61225bc3d738254a9bd9bf8fa817fb0fa905",
+      "txType": "Auction",
+      "amount": "   21.8000"
+    },
+    {
+      "id": 7816422,
+      "txHash": "0xE3C5CC42CE5F8D8A117233409721D7CDC3076D44791AD1B73011657A236D4D0A",
+      "time": "Mar 17, 2025 06:49:15 / UTC \u002B0",
+      "from": "0x4d07db1a1e3cd157473f0ee2de4e4d109639003d",
+      "to": "0xb3fa61225bc3d738254a9bd9bf8fa817fb0fa905",
+      "txType": "Auction",
+      "amount": "   21.8000"
+    },
+    {
+      "id": 7816421,
+      "txHash": "0xFBBDC1455CCA96E8EAB335CD266B5926998A18FD9187D593A1B8B4A85402DCC3",
+      "time": "Mar 17, 2025 06:49:13 / UTC \u002B0",
+      "from": "0x4d07db1a1e3cd157473f0ee2de4e4d109639003d",
+      "to": "0xb3fa61225bc3d738254a9bd9bf8fa817fb0fa905",
+      "txType": "Auction",
+      "amount": "   21.8000"
+    },
+    {
+      "id": 7816420,
+      "txHash": "0x0B02F10A6370AE23EB9A7DAAEB0024FFF76A8113D129D68B9CE1A06DD44B9BE9",
+      "time": "Mar 17, 2025 06:49:10 / UTC \u002B0",
+      "from": "0x4d07db1a1e3cd157473f0ee2de4e4d109639003d",
+      "to": "0xb3fa61225bc3d738254a9bd9bf8fa817fb0fa905",
+      "txType": "Auction",
+      "amount": "   21.8000"
+    },
+    {
+      "id": 7816419,
+      "txHash": "0x7057AC914029D473BFAEAD348679E612ADCA5A20ECF3708AF46957FB99CAE72C",
+      "time": "Mar 17, 2025 06:49:08 / UTC \u002B0",
+      "from": "0x4d07db1a1e3cd157473f0ee2de4e4d109639003d",
+      "to": "0xb3fa61225bc3d738254a9bd9bf8fa817fb0fa905",
+      "txType": "Auction",
+      "amount": "   21.8000"
+    },
+    {
+      "id": 7816418,
+      "txHash": "0xEB5CF3BBE4E9DBD66B2545632A0686CF108D7566C35118DC0CF1C1701EF1A973",
+      "time": "Mar 17, 2025 06:49:05 / UTC \u002B0",
+      "from": "0x4d07db1a1e3cd157473f0ee2de4e4d109639003d",
+      "to": "0xb3fa61225bc3d738254a9bd9bf8fa817fb0fa905",
+      "txType": "Auction",
+      "amount": "   21.8000"
+    },
+    {
+      "id": 7816417,
+      "txHash": "0x54D4D2F03A589215C5C8484790FD134845F32CA5DD693A62AB705AEDEC55483B",
+      "time": "Mar 17, 2025 06:49:03 / UTC \u002B0",
+      "from": "0x4d07db1a1e3cd157473f0ee2de4e4d109639003d",
+      "to": "0xb3fa61225bc3d738254a9bd9bf8fa817fb0fa905",
+      "txType": "Auction",
+      "amount": "   21.8000"
+    },
+    {
+      "id": 7816416,
+      "txHash": "0x163E6159D567005355565F9773F8C4A3343BD973841A8CCADA795D4C5ED3F68A",
+      "time": "Mar 17, 2025 06:49:01 / UTC \u002B0",
+      "from": "0x4d07db1a1e3cd157473f0ee2de4e4d109639003d",
+      "to": "0x03fcc9bdc0379a458c7f90236930bee35cedc515",
+      "txType": "Auction",
+      "amount": "   21.8000"
+    },
+    {
+      "id": 7816415,
+      "txHash": "0xA784F9AEF6B09282B83C209901ACD9A6E95EC5162F1B110EF694A812CD0CC448",
+      "time": "Mar 17, 2025 06:49:00 / UTC \u002B0",
+      "from": "0x4d07db1a1e3cd157473f0ee2de4e4d109639003d",
+      "to": "0x03fcc9bdc0379a458c7f90236930bee35cedc515",
+      "txType": "Auction",
+      "amount": "   21.8000"
+    },
+    {
+      "id": 7816414,
+      "txHash": "0x159A3A2456E21CFD47536CB47615B17FD10B557F038E6CDB2E379BB87F622264",
+      "time": "Mar 17, 2025 06:48:58 / UTC \u002B0",
+      "from": "0x4d07db1a1e3cd157473f0ee2de4e4d109639003d",
+      "to": "0x03fcc9bdc0379a458c7f90236930bee35cedc515",
+      "txType": "Auction",
+      "amount": "   21.8000"
+    },
+    {
+      "id": 7816413,
+      "txHash": "0xCBA063D057BF2AE643A5DF2680BAD198A2747731E30D7633CB17808D25D72A72",
+      "time": "Mar 17, 2025 06:40:56 / UTC \u002B0",
+      "from": "0xe55975abab5f5f028c80f35760aaaf3bbd09721c",
+      "to": "0xd8a2af60cec8ab49a7563d11092b49674521b09d",
+      "txType": "Auction",
+      "amount": "  322.8000"
+    },
+    {
+      "id": 7816412,
+      "txHash": "0x03801FB19E80D7D709BF553DF8028FE74454E9444722E42F805C56E12A2D977E",
+      "time": "Mar 17, 2025 06:24:43 / UTC \u002B0",
+      "from": "0x056e8386a889e5b95842b040bbcf5aa73b62f6ed",
+      "to": "0xb0516916ee0d24319df1bffee5cacb30e1aeb9dd",
+      "txType": "Auction",
+      "amount": "    8.9000"
+    }
+  ]
+}

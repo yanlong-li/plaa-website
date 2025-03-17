@@ -1,0 +1,13 @@
+{
+  "faceObject": {
+    "network": "bora",
+    "apiKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDtfqofUXcqtZULsH2j8sSChAGAIIAHpKwSubjvcOZJe6BGBzlIHKRaHYjZrIltguJoUlOSEoFG70zZkfwUoepCydBysw4vf5Xtudyw7KolkY3PHgXPFs7iZgqw06hWEfWLeroMv25FaU-ovaFm-dNO-o-DyDSGsQAoL-r4Cb9AywIDAQAB"
+  },
+  "home": [
+    "bora",
+    "klaytn",
+    "polygon",
+    "ethereum"
+  ],
+  "bsltContract": "0xcfdbf6a1f765c295d8d557e841c1304019318525"
+}
