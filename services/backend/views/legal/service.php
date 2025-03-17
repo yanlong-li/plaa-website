@@ -1,0 +1,1117 @@
+<?php
+$this->title = 'Terms of Service | XLGAMES Global member';
+?>
+    <section class="content">
+        <header class="content-title">
+            <h1>Terms of Service</h1>
+            <div class="date-select">
+                <form action="../">
+                    Effective Date
+
+
+                    <select class="select_txt" id="effectiveDate"
+                            onchange="location.href='/legal/service/' + this.options[this.selectedIndex].value">
+                        <option value="service" selected>2023-08-05</option>
+                    </select>
+                    <a href="javascript:;" onclick="window.print();return false;" class="btn-print">
+                        <i class="ico-print"></i> Print
+                    </a>
+
+                </form>
+            </div>
+        </header>
+        <div class="etc">
+
+            <section class="etc_box etc_date">
+                <div class="tit color">1) General Provisions</div>
+                <dl>
+                    <dt>Article 1 (Objective)</dt>
+                    <dd>The purpose of the terms is to define the rights, obligations, and responsibilities between
+                        the Company and a user in relation to use of the game and all the accompanying services
+                        (hereinafter ‘Service’) provided by XLGAMES, Inc. (hereinafter 'Company')
+                    </dd>
+                    <dt>Article 2 (Effectiveness and Amendment of Terms)</dt>
+                    <dd>The Company may amend the terms to the extent that they are not violating applicable laws
+                        and regulations in the country of service.
+                    </dd>
+                    <dd><span class="cl">1)</span> The date, etc. shall be specified on the official website 7
+                        (seven) days before the effective date for a specific period to compare them with the
+                        current terms and notify a user. However, a user shall be notified 30 (thirty) days before
+                        the effective date by any of the methods above in case the terms are amended to have a
+                        significant impact on a user's rights and obligations.
+                    </dd>
+                    <dd><span class="cl">2)</span> A user has the right not to agree to the amended terms and the
+                        Company or a user can terminate the service use agreement in case a user does not agree to
+                        the amended terms. However, the amended terms shall be deemed to have been agreed upon in
+                        case a user does not strongly express his/her intention to refuse.
+                    </dd>
+                    <dd><span class="cl">3)</span> In order to apply the terms unspecified in the terms, protect the
+                        rights and interests of a user, and maintain the order in the game, the Company may
+                        establish Operational Policy of the service and in such a case, the part of the policy will
+                        be specified on the official website or link to notify a user. It will be specified in
+                        advance on the official website, bridging screen or Game Client notice in case the Company
+                        amends Operational Policy. However, it shall be specified in accordance with Article 2-1 in
+                        case Operational Policy is amended to have a significant impact on a user's rights and
+                        obligations.
+                    </dd>
+                    <dt>Article 3 (Interpretation of Terms)</dt>
+                    <dd>Any matters unspecified in the terms and interpretation of the terms shall be governed by
+                        relevant laws and regulations.
+                    </dd>
+                    <dt>Article 4 (Definition of Terms)</dt>
+                    <dd>The definitions of terms used in Terms of Service are as follows:</dd>
+                    <dd><span class="cl">1)</span> "Service" means game services provided by the Company and all the
+                        accompanying services. The Company may provide services that a user can use without paying
+                        additional fees (hereinafter ‘Free Services’) and/or with paying fees the Company prices in
+                        advance (hereinafter ‘Paid Services’).
+                    </dd>
+                    <dd><span class="cl">2)</span> "A user" means a person who has been granted a user's eligibility
+                        by agreeing to the terms and completing the use contract according to the service use
+                        application procedure provided by the Company.
+                    </dd>
+                    <dd><span class="cl">3)</span> "Account" means a combination of English letters and numbers
+                        selected by a user and approved by the Company for identification of a user and use of the
+                        service.
+                    </dd>
+                    <dd><span class="cl">4)</span> “Permanently Restricted Account” means an account that the
+                        company restricted log-in and access to the service. This applies after deciding that the
+                        person has infringed the company’s or another person’s rights or interests by violating the
+                        user’s obligation outlined in these Terms of Service (Article 13, 19, 20, 21, etc.) and the
+                        service’s Operational Policy.
+                    </dd>
+                    <dd><span class="cl">5)</span> “Long-term Unused Account” means an account that has not used the
+                        official website and service for 1 year from the last log-in date.
+                    </dd>
+                    <dd><span class="cl">6)</span> "Account Information" means the account, service usage
+                        information, payment information, or related information, including personal information of
+                        a user that the Company knows while using the service.
+                    </dd>
+                    <dd><span class="cl">7)</span> "Password" means a combination of letters or numbers selected by
+                        a user for the purpose of verifying him/her and protecting the confidential personal
+                        information.
+                    </dd>
+                    <dd><span class="cl">8)</span> "Game Character (hereinafter ‘Character’)” means the game
+                        information that a user selects and controls in person for use of the service.
+                    </dd>
+                    <dd><span class="cl">9)</span> “BSLT” is a service token issued by XLGAMES that can be used to
+                        purchase a specific service or product of ArcheWorld. The conversion value of BSLT may vary
+                        depending on the market price of the token exchange.
+                    </dd>
+                    <dd><span class="cl">10)</span> "Deposit” means to transferring BSLT purchased from an external
+                        exchange and held in a personal service token wallet to an ArcheWorld account.
+                    </dd>
+                    <dd><span class="cl">11)</span> “Withdrawal” means to transferring BSLT held in an ArcheWorld
+                        account to personal service token wallet.
+                    </dd>
+                    <dd><span class="cl">12)</span> “In-game asset” means intangible asset that is utilized for
+                        service use except for unNFTized items or BSLT held in personal service token wallet.
+                    </dd>
+                    <dd><span class="cl">13)</span> “Additional service” means any services which are incidental to
+                        the main services provided by the Company. The Company may provide particular additional
+                        services in a form that is utilized at the same time as purchasing.
+                    </dd>
+                    <dt>Article 5 (Provision of Information, etc.)</dt>
+                    <dd>
+                        The Company posts the following information at the bottom of the game launcher screen or on
+                        Terms of Service on the official website to make it easier for a user to read and
+                        understand. Please be informed that a member can see and check Privacy Policy and other
+                        terms on the login screen.
+                    </dd>
+                    <dd>
+                        [Company Information]<br/>
+                        1. Name: XLGAMES<br/>
+                        2. Website: <a href="https://www.archeworld.com">https://www.archeworld.com</a><br/>
+                    </dd>
+                    <dd>
+                        [Customer Support]<br/>
+                        1. Website: <a href="https://www.archeworld.com">https://www.archeworld.com</a>
+                    </dd>
+                    <dd>
+                        [Terms of Service]<br/>
+                        1. Terms of Service (The terms)<br/>
+                        2. Privacy Policy
+
+                    </dd>
+                    <dt>Article 6 (Posting of Terms, etc.)</dt>
+                    <dd>
+                        <span class="cl">1)</span> The Company shall print out the entire terms and take technical
+                        measures to verify the contents of the terms during transaction.
+                    </dd>
+                    <dd>
+                        <span class="cl">2)</span> The Company shall provide a way to interact with a user: <br/>A
+                        user can inquire and respond to the Company about the contents of the terms.
+                    </dd>
+                    <dd>
+                        <span class="cl">3)</span> Before a user agrees to the terms, the Company provides a
+                        separate screen or pop-up screen to emphasize important contents such as subscription
+                        withdrawal and refund policy by using bold fonts or different font colors to make it easier
+                        for a user to read and understand.
+                    </dd>
+                </dl>
+                <div class="tit color">2. Service Use Agreement</div>
+                <dl>
+                    <dt>Article 7 (Establishment of Use Agreement)</dt>
+                    <dd>
+                        <span class="cl">1)</span> The Service Use Agreement is concluded when a user agrees to the
+                        terms, applies for the use, and the Company approves it. The Service Use Agreement is
+                        established when the Company indicates the completion of subscription online to a user
+                        according to his/her application procedure.
+                    </dd>
+                    <dd>
+                        <span class="cl">2)</span> A user cannot claim the member's rights according to the terms
+                        and the Company can cancel or terminate Service Use Agreement without refund in case the
+                        identification information specified in the application is false or stolen from others.
+                    </dd>
+                    <dd>
+                        <span class="cl">3)</span>
+                        A User can use Face Wallet. Use of Face Wallet is considered voluntary consent to the Terms
+                        of Use found in the links and the BORA PORTAL service use contract will be signed between
+                        the user and METABORA SINGAPORE PTE. LTD.
+                        <br/>
+                        <a href="https://policy.boraportal.com/#use"
+                           target="_blank">https://policy.boraportal.com/#use</a>
+                    </dd>
+                    <dt>Article 8 (Approval, etc. on Application for Use)</dt>
+                    <dd>
+                        <span class="cl">1)</span> The Company may withhold, refuse or cancel the approval on
+                        application for use in case:
+                    </dd>
+                    <dd class="cl1">
+                        1. A user's request is made using or stealing others’ personal information such as email
+                        address;<br/>
+                        2. A user fails to pay for the service or prove the payment;<br/>
+                        3. False information is provided or the information the Company needs from a user is not
+                        given;<br/>
+                        4. A user is disqualified for the membership for he/she has or tries to have an account that
+                        has been terminated or suspended by the Company due to violations of Terms of Service;<br/>
+                        5. A user has tried to use the service for unlawful purposes;<br/>
+                        6. A user has tried to use the service for any illegal purposes or undermine the Company's
+                        interest;<br/>
+                        7. A test facility (such as PC system) a user owns is not suitable for the purpose of
+                        providing the service for free or for testing purposes;<br/>
+                        8. A user fails to meet the required conditions such as eligibility as a tester when the
+                        service is provided for free or for testing purposes only;<br/>
+                        9. It is deemed impossible to provide the service due to a user’s serious mistakes and
+                        faults;<br/>
+                        10. There is technical problem or no room for facilities related to the service;<br/>
+                        11. A user uses others’ personal information without permission to pay for the service;<br/>
+                        12. A user has been previously terminated or revoked under this article
+                    </dd>
+                    <dd>
+                        <span class="cl">2)</span> The Company may withhold or refuse the approval until the reason
+                        for the restriction of the approval's application is resolved in any of the following cases:
+                    </dd>
+                    <dd class="cl1">
+                        1. The Company is deemed unable to provide satisfactory service due to lack of service
+                        facilities;<br/>
+                        2. There is a technical issue in service or failure in payment of service charges;<br/>
+                        3. It is difficult to approve use of the application for reasons equivalent to those
+                        mentioned above
+                    </dd>
+                    <dd>
+                        <span class="cl">3)</span> In accordance with the Company's policy, the Company can place
+                        differences in the scope, time, etc. of use of the service and may request additional
+                        information in case the optional service or the scope of it adjusts.
+                    </dd>
+                    <dd><span class="cl">4)</span> The Company may differentiate the users in service usage range
+                        and usage time. The Company may ask for further information if there are any changes in
+                        providing optional services or service usage range.
+                    </dd>
+                    <dt>Article 9 (Account and Password)</dt>
+                    <dd>
+                        <span class="cl">1)</span> The Company grants a user with his/her account to identify
+                        him/her and the use of services. A user is however, not allowed to request for changes of
+                        the approved accounts by the Company during the service period.
+                    </dd>
+                    <dd><span class="cl">2)</span> The Company may limit the total number of the accounts an
+                        individual can create according to the policy of the service as notified separately in case
+                        there is a significant reason for his/her account to be changed according to the Company’s
+                        policy.
+                    </dd>
+                    <dd><span class="cl">3)</span> A user's account must only be used by a user him/herself and must
+                        not be transferred, rented or allowed to be used by others. A user’s account is subject to
+                        restrict due to the violation of the terms and Operational Policy regardless of who uses the
+                        account in case the account was shared to a third party for use.
+                    </dd>
+                    <dd><span class="cl">4)</span> The Company performs all management tasks to ensure that a user
+                        is able to use the service with the given account's information. A user shall make the
+                        corrections and immediately notify the company via online, e-mail or any other method
+                        requested by the Company in case any information on the account such as contact information
+                        provided when applying for the use of service is changed. The Company is not responsible for
+                        all damages caused by a user's failure to notify them.
+                    </dd>
+                    <dd><span class="cl">5)</span> A user is responsible for managing his/her account and
+                        credentials of the account must not be made available to a third party. A user must
+                        immediately notify the Company and follow the Company's instructions in case a user is aware
+                        that the account is compromised. The Company is not responsible for all damages or losses of
+                        the service due to a user's failure to notify the Company, follow the given instructions, or
+                        manage account properly.
+                    </dd>
+                    <dd><span class="cl">6)</span> Only 1 service token wallet per account can be verified when
+                        applying for a new account, and the verified service token wallet address cannot be changed.
+                    </dd>
+                    <dd><span class="cl">7)</span> If a user loses their service token wallet address, they can no
+                        longer deposit/withdraw BSLT, and the Company cannot restore or identify the address.
+                    </dd>
+
+                    <dt>Article 10 (Protection and Use of Personal Information)</dt>
+                    <dd><span class="cl">1)</span> The Company strives to protect a user's personal information,
+                        including user's registration and account information. The Privacy Policy applies to the
+                        protection and use of a user’s personal information.
+                    </dd>
+                    <dd>
+                        <span class="cl">2)</span> The Company's Privacy Policy does not apply to services provided
+                        by third parties that are simply linked to other than the Company's official website.
+                    </dd>
+                    <dd>
+                        <span class="cl">3)</span> The Company is not responsible for the case that a user's
+                        information including the account information is disclosed due to a user's fault or
+                        negligence.
+                    </dd>
+
+                    <dt>Article 11 (Collection of Information, etc.)</dt>
+                    <dd><span class="cl">1)</span> The Company may save or store all communication including
+                        chats/conversations in the service. The information shall not be made available to everyone
+                        with the exemption of a third party authorized by the Company. The Company has the rights to
+                        view the information only for legal use such as a user's violation of the terms, dispute
+                        settlement among users, handling civil complaints, or maintaining order in the service.
+                    </dd>
+                    <dd><span class="cl">2)</span> The Company can collect PC specifications, Operating System,
+                        browser other system information, regional and language settings, Globally Unique Identifier
+                        (GUID), product identification information, and other error information to stabilize the
+                        service, fix the errors, and check malicious code infection status.
+                    </dd>
+                    <dd><span class="cl">3)</span> In providing services, in order to provide services in a stable
+                        and rapid manner, the Company can utilize some storage space or resources on user's PC to
+                        apply technologies such as Grid Computing and Distributed Processing System to transfer data
+                        to others.
+                    </dd>
+
+                    <dt>Article 12 (Provision of Information, etc.)</dt>
+                    <dd><span class="cl">1)</span> The Company can provide a user with various information and
+                        advertisements that are deemed necessary for use of the service using service screen
+                        (pop-ups), e-mail or letter mail.
+                    </dd>
+                    <dd><span class="cl">2)</span> The Company may request additional personal information with the
+                        consent of a user for the purpose of improving the service and introducing the service to a
+                        user.
+                    </dd>
+                    <dd><span class="cl">3)</span> In relation to the operation of the service, the Company may post
+                        advertisements on the service screen, website and e-mail. A user who would like to use the
+                        service is deemed to agree with the displayed advertisements when using the service.
+                    </dd>
+
+                    <dt>Article 13 (Use and Management of Posts)</dt>
+                    <dd><span class="cl">1)</span> The Company may delete, move or reject the following postings or
+                        data without prior notice. A user shall not perform any of the following acts and the
+                        Company may take reasonable measures such as restriction of a user's account name, character
+                        name, name of the group, chat contents and method, use of bulletin boards, how to play the
+                        game, and other services against a user who creates such postings in accordance with the
+                        Operational Policy.
+                    </dd>
+                    <dd class="cl1">
+                        1. The post is misleading, inappropriate, threatening, insulting, or contains obscene
+                        language;<br/>
+                        2. The same article or comment is posted repeatedly;<br/>
+                        3. The content is offensive with obscene, hateful, slanderous, and disparaging remarks;<br/>
+                        4. The post contains malicious distribution of false information about a specific individual
+                        and the Company;<br/>
+                        5. False fact impossible to verify is posted;<br/>
+                        6. Personal or other's information (such as location, contact information, email address,
+                        etc.) is included in the post;<br/>
+                        7. The post violates the copyright or portrait rights of others or is related to the
+                        distribution of illegal data;<br/>
+                        8. The post causes confusion due to clear intentions of impersonating the operators and
+                        employees of the Company;<br/>
+                        9. The post induces malware distribution or system failure;<br/>
+                        10. The post promotes violence, misconduct or gambling;<br/>
+                        11. The post contains political and religious belief, ideology, etc. specified under the
+                        actual law;<br/>
+                        12. The post is based on social and cultural prejudices, such as race or gender preference,
+                        nationality, religious or political disputes;<br/>
+                        13. The content is related to account sharing and transaction attempts using the bulletin
+                        board;<br/>
+                        14. Commercial (commercially intended articles containing profit, general website promotion,
+                        and sign-up inducement);<br/>
+                        15. The post shares information about system and bug exploits, and distributing unofficial
+                        programs;<br/>
+                        16. The post causes disputes between users, or contains inappropriate content due to the
+                        disputes;<br/>
+                        17. The post is created by illegal programs;<br/>
+                        18. The post violates the terms, Operational Policy, and related statutes;<br/>
+                        19. An act of sabotaging normal operations on purpose
+                    </dd>
+                    <dd><span class="cl">2)</span> The Company shall take provisional measures for such posts in
+                        case of violation of the Company's rights, rights of third party or others, or violation of
+                        other company policies even if there is no request of the right holder.
+                    </dd>
+
+                    <dt>Article 14 (Copyright of Posts)</dt>
+                    <dd><span class="cl">1)</span> The post from a user (including videos, letters, pictures, sound,
+                        and the combination) may be disclosed to search results, information-based e-mail, services
+                        and promotions, and may be edited, reproduced, or edited within the required scope. In this
+                        process, the Company complies with the intellectual property laws in the country of service,
+                        and a user has the right to ask the Company to take actions such as deleting the post,
+                        excluding it from the search results, and keeping it private. The article shall be valid for
+                        the period the Company operates the service even after a user withdraws from the service
+                        use.
+                    </dd>
+                    <dd><span class="cl">2)</span> While using the service, a user shall not randomly process,
+                        reproduce, publicly transmit (including transmission, broadcast), publish, and distribute
+                        works and posts of the Company without prior writing consent of the Company except for the
+                        case that the Company allows for disclosure. In such a case, however, the re-editing shall
+                        not be made and it shall not be used for commercial purposes or distributed to third parties
+                        or the public.
+                    </dd>
+                    <dd><span class="cl">3)</span> The Company may delete, move or refuse to register the post in
+                        case the Company determines that it is in violation of the terms or requested to stop
+                        posting due to violation of intellectual property rights, other related statutes,
+                        infringement of rights or defamation, or an offense against public morals, etc.
+                    </dd>
+                    <dd><span class="cl">4)</span> A user shall be solely responsible for civil and criminal
+                        liability arising from a user's post infringing the intellectual property rights such as
+                        copyrights of the third party.
+                    </dd>
+
+                    <dt>Article 15 (Rights of In-game Assets)</dt>
+                    <dd><span class="cl">1)</span> In-game assets (unNFTized character and game items, game money,
+                        BSLT deposited in-game exchange, etc.) are intangible assets for service use, and are not
+                        monetary or property in real life, but the Company basically grants users the right to use
+                        them. A user can use the in-game assets in the system (website and/or game service, etc.)
+                        provided by the company using the method(rules) set by the company. However, if the user
+                        violates the user’s obligation outlined in these Terms of Service(Article 13, 19, 20, 21,
+                        etc.) and infringes the rights of the Company or other users, the Company may restrict the
+                        right to use the user’s existing in-game assets. If it is determined that it is necessary
+                        for game planning or operation, the Company may restrict the right to use the user’s in-game
+                        assets with the user’s consent. If the company wants to restrict or retrieve the user’s
+                        right to use the service by categorizing it as a Permanently Restricted Account or Long-term
+                        Unused Account through the Terms, the company has to notify the user individually through
+                        e-mail or possible methods more than 2 times. The account’s use of service will be
+                        restricted or retrieved according to the company’s procedure and method if the user does not
+                        raise objections additionally within the user’s intention period set and notified by the
+                        company, as it is regarded to have been approved. Users are prohibited from using in-game
+                        assets in systems(websites and/or game services, etc.) that is not provided by the Company,
+                        and shall not transfer, give, sell, rent them to others, nor use methods other than those
+                        specified by the Company.
+                    </dd>
+                    <dd><span class="cl">2)</span> The Company reserves all rights including intellectual property
+                        rights for the services and derivatives thereof. The Company grants a user only the right to
+                        use it under the terms given by the Company.
+                    </dd>
+                    <dd><span class="cl">3)</span> The Company adjusts some or all its in-game assets as deemed
+                        necessary in accordance to its service policy. A user is shall be notified before or after
+                        the adjustment in case it may cause disadvantages for him/her.
+                    </dd>
+                    <dd><span class="cl">4)</span> In-game asset data a user acquires during the test period may be
+                        lost, deleted or initialized at any time without prior notice in case the service is
+                        provided for testing purposes.
+                    </dd>
+
+                    <dt>Article 16 (Reorganization and Separation of Games, Services, and Websites)</dt>
+                    <dd><span class="cl">1)</span> The Company has the rights to add, modify, separate, or delete
+                        services frequently in order to provide high-quality service. The Company shall notify a
+                        user during the reasonable period in case significant and obvious damage is expected when
+                        exercising the rights.
+                    </dd>
+                    <dd><span class="cl">2)</span> The Company may reorganize or separate the websites related to
+                        the official website and game service. In such a case, the Company shall notify a user
+                        actively and ensure that the continuous service is provided on the websites that have been
+                        reorganized or separated.
+                    </dd>
+                    <dd><span class="cl">3)</span> The rights of the game program which is main content of the
+                        service, others (characters, scenarios, designs, animations, music, effects, and all rights
+                        related to the game), and all in-game information belong to the Company or a specific
+                        copyright holder. And the Company may add, delete or change all or part of the contents if
+                        deemed necessary for the planning or operation of the game. If a user violates the user’s
+                        obligation outlined in these Terms of Service(Article 13, 19, 20, 21, etc.) and infringes
+                        the rights of the Company or other users regarding the user's in-game asset(character,
+                        character's name, items, etc.), the Company may restrict the right to use them. If it is
+                        determined that it is necessary for game planning or operation, the Company may restrict the
+                        right to use the user’s in-game assets with the user’s consent. If the company wants to
+                        restrict or retrieve the user’s right to use the service by categorizing it as a Permanently
+                        Restricted Account or Long-term Unused Account through the Terms, the company has to notify
+                        the user individually through e-mail or possible methods more than 2 times. The account’s
+                        use of service will be restricted or retrieved according to the company’s procedure and
+                        method if the user does not raise objections additionally within the user’s intention period
+                        set and notified by the company, as it is regarded to have been approved.
+                    </dd>
+
+                    <dt>Article 17 (Notification to User)</dt>
+                    <dd><span class="cl">1)</span> In case the Company notifies a user, unless otherwise specified
+                        in the terms, the Company may use an e-mail address specified by a user or an e-memo in the
+                        service.
+                    </dd>
+                    <dd><span class="cl">2)</span> The Company notifies all users by posting on the official website
+                        for more than 7 (seven) days or using a pop-up message to replace the way of notification
+                        mentioned in Article 18-1.
+                    </dd>
+                </dl>
+
+                <div class="tit color">3. Duties of Contracting Parties</div>
+                <dl>
+                    <dt>Article 18 (Obligations of the Company)</dt>
+                    <dd><span class="cl">1)</span> The Company shall faithfully exercise its rights and obligations
+                        stipulated by the statutes and the terms in accordance with its good faith.
+                    </dd>
+                    <dd><span class="cl">2)</span> The Company shall not just have a security system for the
+                        protection of personal information, but also disclose and comply with Privacy Policy so that
+                        a user can safely use the contents.
+                    </dd>
+                    <dd><span class="cl">3)</span> In case the Company reasonably accepts that the opinions or
+                        complaints raised by a user in relation to the service use are justified, the Company shall
+                        have the necessary personnel to deal with them within a reasonable period. However, due to
+                        operational and technical reasons, it may take a considerable amount of time to deal with
+                        such matters, and in such cases, the relevant user should be notified of the reason and the
+                        expected timeline for processing. Regarding the opinions or complaints raised by a user, the
+                        Company notifies him/her of the process and results using the customer support or e-mail.
+                    </dd>
+
+                    <dt>Article 19 (Obligations of User)</dt>
+                    <dd><span class="cl">1)</span> A user shall not provide false information when applying for use
+                        of the service. A user cannot claim any rights to the Company in case of the account created
+                        with false or third party information. In such a case, the Company may suspend or delete the
+                        account and the third party information.
+                    </dd>
+                    <dd><span class="cl">2)</span> A user shall comply with related laws, the terms, a user's guide,
+                        and the notices and cautions the Company separately informs, etc. and he/she shall not do
+                        anything that interferes with the Company's business.
+                    </dd>
+                    <dd><span class="cl">3)</span> A user shall not infringe the various rights including the
+                        intellectual property rights of the Company and third parties, nor shall act to damage the
+                        Company’s reputation.
+                    </dd>
+                    <dd><span class="cl">4)</span> A user shall not use the service provided by the Company for uses
+                        other than the intended purpose such as games or entertainment, etc. and in particular,
+                        shall not perform the following activities. The Company may take appropriate measures
+                        against a user’s violations, such as suspension of service, deletion of accounts, and
+                        restrictions on use of the service, etc. in accordance with Operation Policy the Company
+                        announces separately in case he/she conducts any of the following acts. Followings are the
+                        Company’s measures to restrict a user's rights: measures to restrict a user from using the
+                        service for a certain period of time or permanently, measures to restrict a user from using
+                        an account for a certain period of time or permanently, measures to restrict certain
+                        privileges of an account for a certain period of time or permanently, measures to restrict a
+                        user from using a character for a certain period of time or permanently, measures to
+                        restrict certain privileges of a character and account for a certain period of time. In such
+                        cases, a user is notified and given the opportunity to explain for a sufficient time.
+                    </dd>
+                    <dd class="cl1">
+                        1. An act of registering false information in case of applying for use (registration) or
+                        changing user information;<br/>
+                        2. An act of transferring, giving, or providing rights of the service including a user
+                        account, character, level, etc. that are not recognized as privately-owned because they are
+                        not NFTized and other contractual status as collateral;<br/>
+                        3. An act of transferring, giving, or providing in-game assets of user’s account such as
+                        game items, game money, etc., that are not NFTized as collateral in a way other than those
+                        specified by the Company;<br/>
+                        4. An act of transferring, giving, or providing in-game assets such as game items, game
+                        money, etc., even they are recognized as privately-owned after NFTization as collateral in a
+                        jurisdiction where the sale or use of virtual asset is prohibited;<br/>
+                        5. An act of selling, transferring, giving, or providing BSLT as collateral in a
+                        jurisdiction where the sale or use of service token is prohibited; <br/>
+                        6. An act of impersonating an official operator of the service recognized by the Company or
+                        the Company/its employee;<br/>
+                        7. An act of changing Game Client programs (including game access programs) without special
+                        permission from the Company, adding or inserting other programs into Game Client programs,
+                        hacking, reversing engineer game servers, or building a separate server where Game Client
+                        program is used, or modifying any portion of the website;<br/>
+                        8. An act of exploiting a bug in the Company’s programs;<br/>
+                        9. An act of using the service or the website for other illegal purposes such as trafficking
+                        pirated software in the service or on the website;<br/>
+                        10. An act of using, distributing, encouraging others to use or promoting any software or
+                        hardware a user or a third party has developed in relation to the service or the contents of
+                        the game (hunting in games or other automatic action of the game) without permission;<br/>
+                        11. An act of acquiring in-game assets such as characters, virtual money, game money, game
+                        items, etc. in abnormal ways; <br/>
+                        12. An act of harming or intentionally interfering with the service; <br/>
+                        13. An act of doing activities related to marketing and sales using the service without the
+                        prior consent of the Company (a user is not allowed to do activities related to marketing
+                        and sales using the service without the prior consent of the Company. A user is solely
+                        responsible for the results of such sales activities in case he/she has done without the
+                        prior consent of the Company. In addition, a user is liable for damages to the Company in
+                        case a user's sales activities have a risk of causing or cause economic damage to the
+                        Company or damage that inflicts on the Company’s image. The Company can restrict a user from
+                        using the service and claim damages against a user.);<br/>
+                        14. An act of copying information obtained from the service for purposes other than the
+                        service use, using it for publication, and broadcasting or providing it to third parties
+                        without the prior consent of the Company; <br/>
+                        15. An act of sending, posting, emailing, or distributing any contents related to
+                        infringement of patents, trademarks, trade secrets, copyrights, or other intellectual
+                        property rights; <br/>
+                        16. An act of sending, posting, emailing, or distributing sloppy and obscene content,
+                        sentences, shapes, sounds, and videos; <br/>
+                        17. An act of sending, posting, emailing, or distributing any content that is very offensive
+                        or personally infringing and may infringe the honor or privacy of others; <br/>
+                        18. An act of harassing or intimidating others, or causing continuous pain or discomfort to
+                        specific users; <br/>
+                        19. An act of collecting or storing personal information of others; <br/>
+                        20. An act of arousing reasonable suspicion of being associated with a crime; <br/>
+                        21. An act of violating any regulations or terms of use set by the Company including the
+                        Terms of Use; <br/>
+                        22. An act of violating other related laws; <br/>
+                        23. An act of inducing or encouraging others to perform any of the 20 (twenty) actions
+                        listed above
+                    </dd>
+                    <dd><span class="cl">5)</span> A user shall not use or contact with the following contents that
+                        harm public well-being or morals.
+                    </dd>
+                    <dd class="cl1">
+                        1. Content that is anti-social and violates related laws;<br/>
+                        2. Content for the purpose of criminal offense, or aiding and abetting criminal
+                        offense;<br/>
+                        3. Content related to race/nationality/region/culture/gender/physical and mental
+                        disorders/age/religion;<br/>
+                        4. Content of harming good customs and other social orders;<br/>
+                        5. Sexually suggestive content;<br/>
+                        6. Content that is considered a profanity;<br/>
+                        7. Content of describing profanity or explicit sexuality;<br/>
+                        8. Content of damaging other's reputation or violating their rights;<br/>
+                        9. Content of slandering others;<br/>
+                        10. Content of impersonating official operator ID recognized by the Company;<br/>
+                        11. Content that may violate the trademark and copyright of third parties;<br/>
+                        12. Content that may confuse others about use of the service in relation to the NPC or game
+                        item name in the game, etc.;<br/>
+                        13. Contents for the purpose of carrying out anti-state actions
+                    </dd>
+                    <dd><span class="cl">6)</span> A user shall check all the policies and regulations frequently,
+                        including the website, announcements and Operational Policy set by the Company.
+                    </dd>
+                    <dt>
+                        Article 20 (Special Provision Relating To BSLT)
+                    </dt>
+                    <dd>
+                        <span class="cl">1)</span> When a user wants to deposit/withdraw BSLT, it is possible
+                        according to the 『BSLT Deposit and Withdrawal Policy』 of the Company which will be notified
+                        in advance.
+                    </dd>
+                    <dd>
+                        <span class="cl">2)</span> The Company does not provide any advice to purchase, sell, or
+                        transact BSLT to users.
+                    </dd>
+                    <dd>
+                        <span class="cl">3)</span> BSLTs do not constitute capital market products such as
+                        securities or derivatives of any form, and they are not issued or registered under any
+                        Security Act or other similar laws of any specific country or jurisdiction in which any
+                        potential holder of BSLT is located.
+                    </dd>
+                    <dd>
+                        <span class="cl">4)</span> No warranties whatsoever with respect to BSLT or their values are
+                        made or secured by the Company and the price and value of BSLT are subject to change due to
+                        market volatility such as token exchanges.
+                    </dd>
+                    <dd>
+                        <span class="cl">5)</span> Users are not eligible to sell or use BSLT from any jurisdiction
+                        in which any sale or use of certain digital currencies, digital assets, virtual assets or
+                        cryptocurrencies is prohibited. The responsibility for the violation rests entirely with the
+                        parties in violation, and the Company is not responsible for such cases.
+                    </dd>
+                    <dd>
+                        <span class="cl">6)</span> The Company shall not be responsible for any and all kind of loss
+                        or damage (including, but not limited to, direct, indirect, special or consequential loss,
+                        actual or conclusive loss and damages, and collectively hereinafter “damage”) that arise
+                        from the user’s failure to comply with paragraph 1) or 5) of this Article.
+                    </dd>
+
+                    <dt>
+                        Article 21 (Special Rules of UCC IP Contents)
+                    </dt>
+                    <dd>
+                        The services provided by the Company may include so-called UCC (User Created Contents) which
+                        are the contents (image files, musical score, etc.) a user posts or uploads and they are
+                        called “UCC IP Contents” (hereinafter ‘UCC IP Contents’).
+                    </dd>
+                    <dd>
+                        <span class="cl">1)</span>
+                        A user grants to the Company a non-exclusive right to use, reuse, transfer, copy, disclose,
+                        or transmit UCC IP Contents without any limitation as part of the services. This right
+                        terminates in case a user deletes UCC IP Contents or his/her account. However, UCC IP
+                        contents may be stored by the Company as part of the services.
+                    </dd>
+
+                    <dd>
+                        <span class="cl">2)</span>
+                        UCC IP Contents a user posts can be viewed by anyone using the service and others can take
+                        screenshots to copy or store them.
+                    </dd>
+                    <dd>
+                        <span class="cl">3)</span>
+                        A user shall observe the following in particular in using the service provided with UCC IP
+                        Contents.
+                    </dd>
+                    <dd class="cl1">
+                        1. A user may not infringe, violate the rights of others (copyrights, trademarks, design
+                        rights, portrait rights and other intellectual property rights, and privacy rights such as
+                        personal information, etc.), post content that violates the law, or do anything related to
+                        these. The Company may delete or remove the UCC IP Contents in case they are deemed to
+                        violate these policies.<br/>
+                        2. The Company is making efforts to protect intellectual property rights and therefore,
+                        please refer to the notice of rights infringement on the website in case there is a report
+                        related to 'Infringement of Intellectual Property Rights' or how the Company handles related
+                        to this, or a dispute with others related to this.<br/>
+                        3. The Company may impose restrictions on a user’s account in case he/she infringes
+                        intellectual property rights of others.<br/>
+                        4. A user may not use similar expressions or images to the copyright, trademark, logo, etc.
+                        of the Company or game without the prior written permission of the Company.
+                    </dd>
+                </dl>
+
+                <div class="tit color">4. Use, Restriction, and Suspension of Service</div>
+                <dl>
+                    <dt>Article 22 (Contents and Changes of Service)</dt>
+                    <dd><span class="cl">1)</span> The Company provides a user with the service such as game, etc.
+                        for a set of time according to the Company's policy, and posts it using a suitable method on
+                        the website, Game Client screen, and link. A user can select and use the service and the
+                        paid service may include additional service, game items, fixed/quantitative/periodical
+                        products, or other services. A user who applies for the paid service must pay the price in
+                        good faith according to the method set by the Company and the conditions, such as the paid
+                        service subscription period, etc., are subject to separate notice of the Company. The
+                        Company provides a user's payment details, purchase history, etc. on the official website.
+                    </dd>
+                    <dd><span class="cl">2)</span> The Company may provide game items individually or in a bundle by
+                        setting them as paid or free service, and the services that are not used within the validity
+                        period set by the Company will expire after the corresponding period. The game item policy
+                        shall follow the matters below (However, if the Company makes a separate notice prior to the
+                        purchase (use) application for the game item, it shall follow).
+                    </dd>
+                    <dd class="cl1">
+                        1. The item with a separate service time may be used for the specified period.<br/>
+                        2. An item that is marked as 'permanent' or 'infinite', or no displayed period (hereinafter
+                        ‘Permanent Item’) can be used for the duration when the game service is normally provided
+                        except when the item is consumed.<br/>
+                        3. The Company may modify the functions of an existing item according to the change of the
+                        game contents and item policy during the item use period.<br/>
+                        4. The Company does not guarantee the duration of use, functions, or conditions of the free
+                        item and shall not be liable for refunds or damages of it except when the Company causes
+                        direct damage to a user due to its serious or intentional negligence.
+                    </dd>
+                    <dd><span class="cl">3)</span> The services provided by the Company, such as the games, etc.,
+                        are creations created by the Company based on virtual world view and the Company has
+                        comprehensive authority on the production, modification, maintenance and repair of the
+                        games, services, etc. With that being said, the Company may change the provided product or
+                        service, and add new contents of the service in case the Company has an appropriate reason.
+                        And the Company may change contents of the service on a regular basis, add, modify, or
+                        delete some or significant parts of the service with update in case a user is in need of
+                        patching various bugs or operating the game. The notice will be specified on the website or
+                        in game to notify a user in case important contents of the product or service are changed.
+                    </dd>
+                    <dd><span class="cl">4)</span> In case of providing ‘Additional service’, it may be applied on
+                        the day of regular maintenance of the game that is first implemented after the user’s
+                        application date, and the time of regular maintenance will be notified separately by the
+                        Company on the game website or game client.
+                    </dd>
+                    <dd><span class="cl">5)</span> The Company shall notify a user of the occasional or scheduled
+                        maintenance, changes of the Terms of Service, matters of the game operation and event, game
+                        update and addition of the game world, etc. on the official website. A user should visit the
+                        website frequently to check the notices and the Company is not responsible for all damages
+                        caused by not being able to read them. However, the Company will notify a user in advance in
+                        case significant and obvious damages are expected.
+                    </dd>
+                    <dd><span class="cl">6)</span> The Company may provide the services through a partnership with
+                        third parties. The contents of the services from the third parties (hereinafter ‘Partnership
+                        Service’), and the rights and obligations of a user related to them are subject to separate
+                        terms and product policies provided by the third parties based on each Partnership Service.
+                        The Company's responsibility in this regard may be limited or exempted and a user may be
+                        asked to agree to separate terms provided by the third parties in case he/she would like to
+                        use such Partnership Service.
+                    </dd>
+
+                    <dt>Article 23 (Services for Testing Purposes)</dt>
+                    <dd><span class="cl">1)</span> The Company may provide the service for testing purposes for a
+                        certain period of time or by opening a test server. The contents, duration, scope, and time
+                        of the service for such testing purposes may be determined and changed according to the
+                        company's circumstances.
+                    </dd>
+                    <dd><span class="cl">2)</span> Since the service for testing purposes is not official, but is
+                        the test to check the stability, technical completeness, etc. of the service, there may be
+                        changes of game service and data, additions, deletions, loss, etc. in the service for
+                        testing purposes. In addition, there can be technical, operational, and administrative
+                        problems such as unexpected server down, etc. in the service for testing purposes and the
+                        Company may suspend and stop the service without prior notice.
+                    </dd>
+                    <dd><span class="cl">3)</span> The Terms of Service contains matters everywhere that apply in
+                        case the service is provided for testing purposes.
+                    </dd>
+                    <dd><span class="cl">4)</span> The Company shall not be responsible for all damages incurred to
+                        a user in connection with the service in case the service is provided for testing purposes.
+                        However, the Company is responsible for the direct damages to a user who is directly harmed
+                        in case he/she suffers a loss due to the Company's intentional or serious negligence.
+                    </dd>
+
+
+                    <dt>Article 24 (Duration and Suspension of Service)</dt>
+                    <dd><span class="cl">1)</span> The Company provides services such as games to a user for a
+                        specific set of time in accordance to the Company's policies and notifies a user using
+                        appropriate methods such as the official website, Game Client, etc. However, the service may
+                        be temporarily suspended and the Company notifies a user in advance in case:
+                    </dd>
+                    <dd class="cl1">
+                        1. PC and telecommunications facilities need maintenance, replacement, or repair<br/>
+                        2. The communication is lost<br/>
+                        3. Scheduled maintenance or modification for game contents and service are needed<br/>
+                        4. There is an appropriate reason for operation<br/>
+                        It can be notified after the incident in case there is an unavoidable reason that the
+                        Company cannot notify in advance.
+                    </dd>
+                    <dd><span class="cl">2)</span> The service may be suspended for a long period of time in case
+                        the service is provided for testing purposes or the free service provided by the Company
+                        needs to be stable.
+                    </dd>
+                    <dd><span class="cl">3)</span> The Company may perform scheduled maintenance to maintain the
+                        service and the maintenance time will be announced on the official website.
+                    </dd>
+
+                    <dt>Article 25 (Posting of Advertisements)</dt>
+                    <dd><span class="cl">1)</span> Part of the investment base of the service that the Company
+                        provides to a user is from the advertising revenue. A user agrees that certain
+                        advertisements can be displayed and posted while using the service.
+                    </dd>
+                    <dd><span class="cl">2)</span> Various banners and links may be included in the service provided
+                        by the Company for the source specification of some contents and advertisements. In this
+                        regard, links to a third-party website or webpages may be provided. The Company shall not
+                        bear any responsibility for damages or losses incurred by a user's participation,
+                        transaction or communication in the advertiser's promotional activities of posting or
+                        linking to the service.
+                    </dd>
+
+                    <dt>Article 26 (Limitation on Use of Service)</dt>
+                    <dd><span class="cl">1)</span> The Company may restrict or suspend all or part of the service
+                        without notice in case:
+                    </dd>
+                    <dd class="cl1">
+                        1. A natural disaster, national emergency, or related laws and regulations prohibit the game
+                        service during a specific time or in a method;<br/>
+                        2. Normal game service is not possible due to a power failure, service facilities failure,
+                        or a deluge of service users;<br/>
+                        3. It is necessary to handle electronic infringement such as hacking, communication
+                        accident, a user's abnormal game use, and unexpectedly unstable game service;<br/>
+                        4. It is necessary to make important decisions related to operation of the Company, such as
+                        the Company's division/merger/business transfer/abolition of sales/deterioration in game
+                        service profits;<br/>
+                        5. There is or is expected to be an unavoidable case such as an unsolvable technical defect
+                        or a serious change in the game operation.<br/>
+                        However, the game service can be suspended, specifying it on the official website 30
+                        (thirty) days in advance in case it is predicted that all of the game services will be
+                        suspended according to the Company's technical and operational needs (A user can be notified
+                        afterwards in case it is unavoidable to notify in advance).
+                    </dd>
+                    <dd><span class="cl">2)</span> The Company may issue a warning, suspend a user's account, or
+                        terminate the contract in case a user violates his/her obligations specified in the terms
+                        (Article 13, 19, 20, 21, 22, etc.), the matters specified in the service operation policy,
+                        or intentionally or accidentally damages the Company. In such a case, the Company, in
+                        principle, notifies in advance the user who has committed the violation and decides to issue
+                        a warning, adjust provisional suspension of the service use, or terminate the contract after
+                        weighing the gravity of a violation. In addition, such restrictions on use of the service
+                        may include adjustments or restrictions on use of characters, game items, and paid/free
+                        services in the user's account and the Company will not compensate him/her for any loss of
+                        in-game asset data including service contents, etc. such as certificates and points.
+                    </dd>
+                    <dd><span class="cl">3)</span> The Company may take measures to suspend use of the service for a
+                        user in accordance with the terms in case a user violates his/her obligations specified in
+                        the terms (Article 13, 19, 20, 21 etc.), the matters specified in the service operation
+                        policy, or intentionally or accidentally damages the Company, and the data loss caused by
+                        inability to continuously maintain in-game asset data in the game (Game items/contents that
+                        require constant maintenance, such as housing), etc. may occur. In such a case, the Company
+                        will not compensate the user for any damages.
+                    </dd>
+                    <dd><span class="cl">4)</span> The Company may terminate the contract immediately or temporarily
+                        suspend the service use without prior warning in case of:
+                    </dd>
+                    <dd class="cl1">
+                        1. Identity/payment theft, provision of illegal programs in violation of the intellectual
+                        property laws in the country of service, interference with service operation, illegal
+                        communication and hacking, distribution of malicious programs, excessive access rights,
+                        mediation/purchase of game money, etc.<br/>
+                        2. Operator impersonation, in-game fraud, repeated bug exploitation, etc.<br/>
+                        3. Significant violations that make it difficult to restore service operation.<br/>
+                        The obtained game items, game money, in-game asset data, characters, and other benefits from
+                        use of the service will be extinguished and deleted in case the contract is terminated
+                        according to the article. The Company will not compensate the user in any form in case of
+                        loss of in-game asset data related to this.
+                    </dd>
+                    <dd><span class="cl">5)</span> An account can be restricted to be used to maintain order of the
+                        games in case:
+                    </dd>
+                    <dd class="cl1">
+                        1. There is an objective or reasonable suspicion that a user's account or password is
+                        illegally used by a third party;<br/>
+                        2. A third party violates the terms by illegally using a user's account;<br/>
+                        3. The Company finds an account directly related to the violation in the process of the
+                        investigation
+                    </dd>
+                    <dd><span class="cl">6)</span> A user may raise objections or make an explanation on the website
+                        within 15 (fifteen) days of receiving the notification in case he/she disagrees with the
+                        Company's actions under the terms or Article 27. The Company can request the user to submit
+                        an objection in the form and using the method specified by the Company, and the Company must
+                        respond to the user within 15 (fifteen) days of receiving the objection. The user is
+                        notified of the reason and the processing schedule in case it is difficult for the Company
+                        to respond within 15 (fifteen) days. The Company must take corresponding measures according
+                        to above.
+                    </dd>
+                    <dd><span class="cl">7)</span> The Company separately announces Inappropriate User Restriction
+                        Policy or Game Service Operational Policy. These policies contain specific conditions and
+                        details within the limits of use in the terms. Accordingly, the Company notifies a user
+                        individually or notifies him/her on Game Client in case of restricting the service use or
+                        terminating the contract.
+                    </dd>
+                    <dd><span class="cl">8)</span> The Company may temporarily restrict a user's account during the
+                        investigation according to the policies and it may last until the investigation is
+                        completed. The Company extends the service period of the paid service user (a user paying a
+                        certain amount to use the service) for as long as the service has been suspended after the
+                        investigation is completed in case he/she is found not to violate the policies according to
+                        the investigation. However, it does not apply to the case of violations of the policies,
+                        such as account theft, hacking, etc.
+                    </dd>
+                    <dd><span class="cl">9)</span> Consultation and inquiries related to use of the service are
+                        received and processed by the Customer Support.
+                    </dd>
+                </dl>
+
+                <div class="tit color">5. Refund and Purchase Cancellation</div>
+                <dl>
+                    <dt>Article 27 (Refund)</dt>
+                    <dd><span class="cl">1)</span> If a situation arises where a user paid over the payment amount,
+                        the overpaid amount will be refunded to the user using the same payment method the user
+                        used. If the refund is not possible in the same way as the payment, it will be notified in
+                        advance. If the overpaid payment amount resulted from the Company’s mistake, it will be
+                        refunded regardless of contract costs and fees. If the overpaid amount was the user’s fault,
+                        the user will be liable for fees arising from refund processing within reasonable limits.
+                    </dd>
+                    <dd><span class="cl">2)</span> The Company may refuse a refund according to paragraph 3) or 7)
+                        except it is legally permitted by individual contracts or relevant laws and regulations in
+                        each country other than this Terms of Service.
+                    </dd>
+                    <dd><span class="cl">3)</span> Due to the characteristics of the Additional service, it is
+                        assumed that the entire service has been used at the time of purchase. As a result, it can
+                        only be refunded before the additional service is applied to the main service.
+                    </dd>
+                    <dd><span class="cl">4)</span> The Company may refuse a refund of game items that have already
+                        been used, considered to be used at the time of refund request, or equivalent cases(where
+                        the products, services, etc. are deleted or damaged due to a user's fault or negligence; a
+                        user uses or partially consumes the products or services; it is difficult to sell old
+                        products or services again; prescribed by law for the safety of transactions; it is clearly
+                        notified in advance in consideration of the characteristics of the product, etc.) and in
+                        case where the company has notified users separately when purchasing each game item, actions
+                        may be taken accordingly.
+                    </dd>
+                    <dd><span class="cl">5)</span> If the Company notifies the refund policy for products/services
+                        (hereinafter “Refund Policy”) separately, the Refund Policy takes precedence over these
+                        Terms of Service. If there is a refund policy that applies only to the product with a
+                        reasonable reason at the time of products/services sales(or at the time of product renewal),
+                        the user will be notified separately or asked for consent.
+                    </dd>
+                    <dd><span class="cl">6)</span> If the Company has separately notified the formula for
+                        calculating refund through the details such as event regulations, announcements, notices
+                        when holding events(such as package product promotion(event), product discount
+                        promotion(event), etc.) or renewing products due to the improvement of the game system, it
+                        will be followed. However, if there is no particular provision about the formula for
+                        calculating refund in the details of the service, the total amount paid by the user will be
+                        refunded.
+                    </dd>
+                    <dd><span class="cl">7)</span> If the Company limits the service use or reviews the cancellation
+                        of the contract of a specific user who is determined to have committed an illegal act or
+                        have committed an act of using software that is strictly prohibited by these Terms of
+                        Service, the Company may refuse a refund of the remaining service fees at the relevant time
+                        considering loss and damage caused by the user’s violation to the services. In such a case,
+                        the Company shall inform the relevant user of such fact and ways to raise objections and
+                        explain via electronic documents on the website or e-mail and if the user reasonably
+                        explains that he/she did not committed an illegal act to the Company, this provision shall
+                        not apply.
+                    </dd>
+
+                    <dt>Article 28 (Purchase Cancellation)</dt>
+                    <dd><span class="cl">1)</span> The Company and a user can cancel the purchase on the website,
+                        etc. without any additional fee within 7 (seven) days from the date of signing the contract
+                        or using the specific service. However, a user cannot cancel the purchase, etc. against the
+                        Company's intention in one of the following cases. In the case of products and services for
+                        which purchase cancellation is restricted in accordance with Article 28-2, 4, and 6 below,
+                        the Company shall clearly state it where a user can easily see and understand or offer trial
+                        products to make sure that the rights, such as purchase cancellation, are not disturbed. A
+                        user may cancel the purchase despite the purchase cancellation restrictions in case the
+                        Company does not take such measures.
+                    </dd>
+                    <dd class="cl1">
+                        1. In case the products, services, etc. are deleted or damaged due to a user's fault or
+                        negligence;<br/>
+                        2. In case a user uses or partially consumes the products or services;<br/>
+                        3. In case it is difficult to sell old products or services again;<br/>
+                        4. In case the packaging of replicable products or services is damaged;<br/>
+                        5. In other cases prescribed by law for the safety of transactions;<br/>
+                        6. In case the game items, etc. are used or deemed to be used in accordance with the terms
+                        and notice upon purchase
+                    </dd>
+                    <dd><span class="cl">2)</span> Purchase cancellation may be restricted for the paid/free
+                        services (gifts, etc.) provided by the Company or a third party for free and some services
+                        such as paid services that have been used or are deemed to be used by a user at the time of
+                        the request for purchase cancellation.
+                    </dd>
+                    <dd><span class="cl">3)</span> A user can cancel his/her purchase on the website.</dd>
+                </dl>
+
+                <div class="tit color">6. Compensation for Damage and Exemption</div>
+                <dl>
+                    <dt>Article 29 (Compensation for Damage)</dt>
+                    <dd>
+                        <span class="cl">1)</span> The Company is not responsible for any damages in relation to all
+                        problems occurred during the service period provided for testing purposes, the products
+                        related to free services provided by the Company, services, all information, or materials
+                        (programs, services, game items, characters, other materials, etc.) provided based on the
+                        terms except when the Company causes direct damage to a user due to its serious or
+                        intentional negligence.
+                    </dd>
+                    <dd>
+                        <span class="cl">2)</span> A user must compensate the Company for damages in case he/she
+                        damages the Company in violation of the obligations specified in the terms or while using
+                        the service.
+                    </dd>
+                    <dd>
+                        <span class="cl">3)</span> In relation to Article 29-7 in the terms, the amount of damages
+                        under Article 31-2 shall be the residual amount of the purchased products (services) and
+                        unused products (including items, etc.) or services. In this case, a user loses the right to
+                        use the relevant products or services, and the Company’s Compensation Bonds offset his/her
+                        Residual Use Amount Refund Bonds.
+                    </dd>
+                    <dd>
+                        <span class="cl">4)</span> In case the paid services a user purchases from the Company are
+                        lost or have problems due to the Company's fault or negligence, the Company restores them to
+                        the state before the loss or damages. If it is impossible or difficult to restore the paid
+                        services, the Company selects and provides ones with similar value of the same kind, or
+                        refunds the purchase amount of the paid services.
+                    </dd>
+                    <dd>
+                        <span class="cl">5)</span> A user cannot claim damages for the free services and the paid
+                        services for which there is no remaining period∙continuous paid usage contract∙periodic paid
+                        items in case the game service is terminated in accordance with Article 26-1 in the terms.
+                        The period of the unlimited-time items (Paid items) is until the end of the service.
+                    </dd>
+                    <dd>
+                        <span class="cl">6)</span> The Company compensates a user who uses the products according to
+                        the subsections below in case the periodic paid services (Game use subscription,
+                        limited-time game use subscription, etc.) provided according to the Continuous Use Agreement
+                        are suspended due to the matters the Company is responsible for during the service, and
+                        he/she does not separately claim damages from the Company. However, the extension of the
+                        service time of each subsection below applies only to the suspended services.
+                    </dd>
+                    <dd class="cl1">
+                        1. The service time is extended to triple that for free in case the service is continuously
+                        stopped for more than 4 (four) hours a day (cumulative time) without prior notice;<br/>
+                        2. The service time is extended for as long as that is exceeded for free in case the service
+                        is continuously stopped for more than 10 (ten) hours a day (cumulative time) despite prior
+                        notice<br/>
+                        3. The time of the service suspension is calculated from the time a user notifies the
+                        Company.
+                    </dd>
+
+                    <dt>Article 30 (Exemption)</dt>
+                    <dd>
+                        <span class="cl">1)</span> The Company is exempt from any responsibility in case the failure
+                        to provide the service is due to natural disasters, wars, or other force majeure.
+                    </dd>
+                    <dd>
+                        <span class="cl">2)</span> A user shall fully understand that the game services and software
+                        provided for the service are products for the pre-testing purposes and acknowledge that they
+                        are not finished products or services normally provided yet, and they may contain errors or
+                        defects in case of the test servers provided separately. The Company does not guarantee the
+                        efficiency, suitability, perpetuity, adequacy, etc. of all products including services and
+                        the test to the maximum extent permitted by Korean law and it does not take any
+                        responsibility for a user's data changes and losses in the process of providing the service.
+                    </dd>
+                    <dd>
+                        <span class="cl">3)</span> The Company may discontinue the service for the reasons such as
+                        repair, replacement, periodic inspection, construction and error of the service equipment,
+                        or changes of the service policy and environment in the case of a test service provided
+                        separately for testing purposes. The Company is not responsible for any damages caused by
+                        suspension of service, failure to use, suspension of the test, etc. due to any reasons.
+                    </dd>
+                    <dd>
+                        <span class="cl">4)</span> The Company does not compensate damages unless it is the
+                        Company's intention or serious negligence in the case of free game service/product provided
+                        by the Company.
+                    </dd>
+                    <dd>
+                        <span class="cl">5)</span> The Company is not responsible for a user's loss of in-game
+                        assets (game money), levels (experiences) in the game unless it is the Company's intention
+                        or serious negligence.
+                    </dd>
+                    <dd>
+                        <span class="cl">6)</span> The Company is not responsible for the service interruption or
+                        failure in use of the service due to a user's negligence.
+                    </dd>
+                    <dd>
+                        <span class="cl">7)</span> The Company is exempt from the responsibility for damages in case
+                        the telecommunications service provider stops or does not normally provide the
+                        telecommunications service.
+                    </dd>
+                    <dd>
+                        <span class="cl">8)</span> The Company is exempt from the responsibility in case the service
+                        is stopped or has problem due to unavoidable reasons such as repair, replacement, regular
+                        maintenance, occasional maintenance construction, etc. of service facilities previously
+                        announced.
+                    </dd>
+                    <dd>
+                        <span class="cl">9)</span> The Company is not responsible for the characters, experiences,
+                        game items, etc. that a user expects to get from the service, but does not obtain or loses,
+                        and is not responsible for any damages caused by the selection or use of the service.
+                    </dd>
+                    <dd>
+                        <span class="cl">10)</span> The Company is exempt from the responsibility for all problems
+                        such as delays in network access caused by a user's PC environment or the reasons the
+                        Company is not responsible for and the Company is not responsible for any damages caused by
+                        so-called lag (loss of in-game assets such as game money, game items, etc.), and any damages
+                        caused by installation and use of Add-ons.
+                    </dd>
+                    <dd>
+                        <span class="cl">11)</span> The Company is not responsible for the reliability, accuracy,
+                        etc. of information, materials, and facts posted or transmitted on the service or the
+                        website which are not posted by the Company.
+                    </dd>
+                    <dd>
+                        <span class="cl">12)</span> The Company is not responsible for problems occurring between
+                        users in the service area. In other words, The Company is not obliged to intervene in the
+                        disputes between the users and/or third parties with the service, and is not responsible for
+                        the damages.
+                    </dd>
+                    <dd>
+                        <span class="cl">13)</span> The Company is not responsible for any damages incurred to a
+                        user in relation to the free service use. However, the Company is responsible in case:
+                    </dd>
+                    <dd class="cl1">
+                        1. A user suffers a loss due to the Company's intentional or serious negligence;<br/>
+                        2. The Company’s responsibility is not exempted according to the terms
+                    </dd>
+                    <dd>
+                        <span class="cl">14)</span> The Company may restrict the service use time, etc. according to
+                        relevant laws, government guidelines, administrative orders, etc., and is not responsible
+                        for any restrictions related to the service use.
+                    </dd>
+
+                    <dt>Article 32 (Governing Law and Jurisdiction)</dt>
+                    <dd>
+                        <span class="cl">1)</span> The lawsuit concerning disputes between the Company and a user
+                        regarding the service use shall be filed in the Seoul International Dispute Resolution
+                        Center(hereinafter “Seoul IDRC”) located in Seoul, South Korea. The decision will be final
+                        and binding on the Parties.
+                    </dd>
+                    <dd>
+                        <span class="cl">2)</span> Singapore law applies to the lawsuits filed between the Company
+                        and a user.
+                    </dd>
+                </dl>
+
+                <div class="end">
+                    ADDENDUM<br/>
+                    The Terms of Service is effective from: August 5, 2023.
+                </div>
+
+            </section>
+        </div>
+    </section>
+<?php
+$this->beginBlock('script');
+?>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            XLGames.Legal.Navigation.showSubGnb("service", "service");
+        });
+    </script>
+<?php
+$this->endBlock();
+?>

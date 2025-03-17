@@ -5,9 +5,9 @@ $this->title = 'Forgot ID | XLGAMES Global member';
 <div class="wrap-content">
     <section class="content">
         <header class="content-title">
-            <h1>Forgot ID</h1>
+            <h1>找回账号</h1>
             <p>
-                You can find your ID by verifying your wallet.
+                您可以通过验证您的钱包来找到您的 ID。
             </p>
         </header>
 
@@ -24,7 +24,19 @@ $this->title = 'Forgot ID | XLGAMES Global member';
                 </div>
             </form>
             <div class="btn-wrap">
-                <a href="javascript:;" class="btn-ok" id="okBtn">OK</a>
+                <a href="javascript:;" class="btn-ok" id="okBtn">确认</a>
+            </div>
+            <div class="login-form-link">
+                <a href="/user/join/agreement" class="login-form-link-join">加入</a>
+                <span class="txt-bar">|</span>
+                <a href="/user/find/id/form">找回账号</a>
+                <span class="txt-bar">|</span>
+                <a href="/user/find/password/form">找回密码</a>
+            </div>
+
+            <div class="sns-wrap">
+                <button class="btn-login-sns" type="button" data-provider="google"><i class="ico-sns-google"></i>Google 账户登录
+                </button>
             </div>
         </article>
 
@@ -38,18 +50,19 @@ $this->title = 'Forgot ID | XLGAMES Global member';
 <script type="text/javascript" src="/resources-202412261502/js/wallet/wallet_service.js"></script>
 <script type="text/javascript" src="/static_resources/js/lib/ethers/5.2/ethers-5.2.umd.min.js"></script>
 <script type="module">
-    import * as faceLib from "/static_resources/js/lib/facewallet/1.9.2/facewallet.js";
+    // import * as faceLib from "/static_resources/js/lib/facewallet/1.9.2/facewallet.js";
 
-    let fwallet = new XLGames.Wallet.Facewallet({
-        'faceLib' : faceLib,
-        'isGoogle' : XLGames.LoginUser.isGoogle
-    });
+
+    // let fwallet = new XLGames.Wallet.Facewallet({
+    //     'faceLib' : faceLib,
+    //     'isGoogle' : XLGames.LoginUser.isGoogle
+    // });
 
     $(document).ready(function() {
         let walletService = new XLGames.Wallet({
             $address: $("#addressVal"),
             $form: $("#walletForm"),
-            'facewallet' : fwallet
+            // 'facewallet' : fwallet
         });
 
         $("#okBtn").on('click', function(){

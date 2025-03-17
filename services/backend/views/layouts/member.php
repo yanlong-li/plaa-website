@@ -45,17 +45,17 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         <div class="company-gnb">
             <h1 class="global-gnb-logo">XLGAMES</h1>
             <ul class="company-site">
-                <li><a href="/">ArcheWorld</a></li>
-                <li><a href="https://www.xbluesalt.io">xBlueSalt</a></li>
+                <li><a href="/">上古世界</a></li>
+                <li><a href="https://www.xbluesalt.io">蓝盐商会</a></li>
             </ul>
         </div>
         <div class="account-util">
             <ul>
 
                 <li><a href="/user/join/agreement" class="link-util"><i
-                                class="ico-join"></i> <span>Sign Up</span></a></li>
+                                class="ico-join"></i> <span>加入</span></a></li>
                 <li><a href="/user/login/form" class="btn-portal-login"><i class="ico-login"></i>
-                        <span>Log In</span></a></li>
+                        <span>登录</span></a></li>
 
 
             </ul>
@@ -67,7 +67,9 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 </div>
 
 <div id="wrapperContent">
-
+    <div class="txt-join-welcome">
+        <i class="ico-xlgames"></i>欢迎加入 <strong>XLGAMES 全球会员.</strong>
+    </div>
     <?php $this->beginBody() ?>
     <?= $content ?>
     <?php $this->endBody() ?>
@@ -76,11 +78,11 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     <footer class="footer">
         <i class="logo-xlgames">XLGAMES</i>
         <ul class="menu-footer">
-            <li><a href="https://company.xlgames.com/en" target="_blank">About us</a><i
+            <li><a href="/" target="_blank">关于我们</a><i
                         class="global-gnb-footer-line">|</i></li>
-            <li><a href="https://member.archeworld.com/legal/service/service">Terms of Service</a><i
+            <li><a href="/legal/service">服务协议</a><i
                         class="global-gnb-footer-line">|</i></li>
-            <li><a href="https://member.archeworld.com/legal/privacy/privacy"><strong>Privacy Policy</strong></a></li>
+            <li><a href="/legal/privacy"><strong>隐私政策</strong></a></li>
         </ul>
         <span>Copyright © <strong class="b">XL</strong><strong>GAMES</strong> Inc. All rights reserved.</span>
     </footer>
@@ -93,8 +95,10 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 <script type="text/javascript"
         src="/static_resources/js/lib/jquery.outsideevents/1.1/jquery.ba-outside-events.min.js"></script>
 <script type="text/javascript" src="/resources-202412261502/js/xlgames.core.js"></script>
-<script type="text/javascript" src="/resources-202412261502/js/cookie/authUpdateCookie_service.js"></script>
-<script type="text/javascript" src="/resources-202412261502/js/localization/message.en.js"></script>
+<script type="text/javascript" src="/resources-202501091402/js/cookie/authUpdateCookie_service.js"></script>
+<!--<script type="text/javascript" src="/resources-202412261502/js/localization/message.zh-CN.js"></script>-->
+<script type="text/javascript" src="/resources-202501091402/js/share/i18n/message_zh-CN.js"></script>
+<!--<script type="text/javascript" src="/resources-202412261502/js/localization/message.en.js"></script>-->
 
 <script type="text/javascript">
     (function ($) {
@@ -118,11 +122,11 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 
         XLGames.LoginUser.isReserveCancelingUser = (XLGames.LoginUser.isReserveUser || XLGames.LoginUser.isCancelingUser);
         XLGames.LoginUser.walletAuthType = '';
-        XLGames.LoginUser.isGoogle = 'false' == 'true';
+        XLGames.LoginUser.isGoogle = 'false' === 'true';
         XLGames.LoginUser.walletAddress = '';
 
-        XLGames.currentFullUrl = "/user/login/form";
-        XLGames.currentLanguage = 'en';
+        XLGames.currentFullUrl = '<?='uniqid'?>';
+        XLGames.currentLanguage = 'zh-CN';
         XLGames.currentRegion = '';
         XLGames.imgPrefix = '/resources-202412261502/images';
         XLGames.walletNetworkId = "77001";
@@ -148,8 +152,8 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     });
 </script>
 <script type="module">
-    import {createApp} from "/resources-202412261502/js/lib/vue.js/3.2.47/vue.js";
-    import {regionApp} from "/resources-202412261502/js/region/region_service.min.js";
+    import {createApp} from "/resources-202501091402/js/share/lib/vue.js/3.2.47/vue.js";
+    import {regionApp} from "/resources-202501091402/js/region/region_service.min.js";
 
     const app = createApp(regionApp);
     app.config.globalProperties.AL10N = AL10N;
@@ -162,8 +166,8 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 
 
 <script type="module">
-    import {createApp} from "/resources-202412261502/js/lib/vue.js/3.2.47/vue.js";
-    import {cookieApp} from "/resources-202412261502/js/cookie/cookiemanage_service.min.js";
+    import {createApp} from "/resources-202501091402/js/share/lib/vue.js/3.2.47/vue.js";
+    import {cookieApp} from "/resources-202501091402/js/cookie/cookiemanage_service.min.js";
 
     const app = createApp(cookieApp);
     app.config.globalProperties.globalData = {

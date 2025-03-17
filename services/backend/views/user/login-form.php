@@ -6,7 +6,7 @@ $this->title = 'Log In | XLGAMES Global member';
 <div class="wrap-content">
     <section class="content">
         <header class="content-title">
-            <h1>Please log in.</h1>
+            <h1>请登录</h1>
         </header>
         <article class="login-form">
             <form id="authenticate" name="authenticate" action="/user/login" method="post">
@@ -18,22 +18,22 @@ $this->title = 'Log In | XLGAMES Global member';
 
 
                 <fieldset class="login">
-                    <legend>Log In</legend>
+                    <legend>登录</legend>
                     <div class="row">
-                        <label id="id_label" for="id_field" class="txt-hidden">Email ID</label>
+                        <label id="id_label" for="id_field" class="txt-hidden">邮箱账户</label>
 
                         <input id="id_field" type="text" name="j_username" class="input-txt-login" maxlength="75"
-                               value="" placeholder="Email ID"/>
+                               value="" placeholder="邮箱账户"/>
 
                         <div class="caution">
                             <label class="error"></label>
                         </div>
                     </div>
                     <div class="row">
-                        <label id="pw_label" for="pw_field" class="txt-hidden">Password</label>
+                        <label id="pw_label" for="pw_field" class="txt-hidden">密码</label>
 
                         <input id="pw_field" type="password" name="j_password" maxlength="20" class="input-txt-login"
-                               autocomplete="off" placeholder="Password"/>
+                               autocomplete="off" placeholder="密码"/>
 
                         <!-- input tooltip -->
                         <div class="caution">
@@ -44,20 +44,19 @@ $this->title = 'Log In | XLGAMES Global member';
                         </div>
                     </div>
 
-                    <button class="btn-login-form" type="submit" id="loginButton">Log In</button>
+                    <button class="btn-login-form" type="submit" id="loginButton">登录</button>
                 </fieldset>
             </form>
             <div class="login-form-link">
-                <a href="/user/join/agreement" class="login-form-link-join">Sign Up</a>
+                <a href="/user/join/agreement" class="login-form-link-join">加入</a>
                 <span class="txt-bar">|</span>
-                <a href="/user/find/id/form">Forgot ID</a>
+                <a href="/user/find/id/form">找回账号</a>
                 <span class="txt-bar">|</span>
-                <a href="/user/find/password/form">Forgot password</a>
+                <a href="/user/find/password/form">找回密码</a>
             </div>
 
             <div class="sns-wrap">
-                <button class="btn-login-sns" type="button" data-provider="google"><i class="ico-sns-google"></i> Sign
-                    in with Google
+                <button class="btn-login-sns" type="button" data-provider="google"><i class="ico-sns-google"></i>Google 账户登录
                 </button>
             </div>
         </article>

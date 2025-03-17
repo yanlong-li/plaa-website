@@ -70,8 +70,8 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                 <div class="company-gnb">
                     <h1 class="global-gnb-logo">XLGAMES</h1>
                     <ul class="company-site">
-                        <li><a href="/">ArcheWorld</a></li>
-                        <li><a href="https://www.xbluesalt.io">xBlueSalt</a></li>
+                        <li><a href="/">上古世界</a></li>
+                        <li><a href="https://www.xbluesalt.io">蓝盐商会</a></li>
                     </ul>
                 </div>
                 <div class="account-util">
@@ -79,12 +79,12 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 
                         <li>
                             <a href="/user/join/agreement" class="link-util"><i class="ico-join"></i>
-                                <span>Sign Up</span></a>
+                                <span>加入</span></a>
                         </li>
                         <li>
                             <a href="/user/login/form?forwardUrl=https://www.archeworld.com/"
                                class="btn-portal-login">
-                                <i class="ico-login"></i> <span>Log In</span>
+                                <i class="ico-login"></i> <span>登录</span>
                             </a>
                         </li>
 
@@ -98,7 +98,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                 <h1>
                     <a href="/" class="bi">ArcheWorld</a>
                 </h1>
-                <a href="#global-navi" class="nav-menu">menu</a>
+                <a href="#global-navi" class="nav-menu">菜单</a>
                 <div class="global-navi-side" id="global-navi">
                     <div class="masthead-navi-bi">
                         <a href="/" class="navi-bi"></a>
@@ -106,12 +106,12 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                     </div>
                     <nav role="navigation" id="common-navi" class="masthead-navi">
                         <div class="gnb-on"></div>
-                        <h2>menu</h2>
+                        <h2>菜单</h2>
                         <ul class="navi">
-                            <li class="m1" id="menu_news"><a href="/news">News</a></li>
-                            <li class="m2" id="menu_guide"><a href="/guide">Guide</a></li>
+                            <li class="m1" id="menu_news"><a href="/news">新闻</a></li>
+                            <li class="m2" id="menu_guide"><a href="/guide">引导</a></li>
                             <li class="m4" id="menu_Community"><a
-                                        href="https://discord.com/invite/archeworld-935064183244988446" target="_blank">Channel</a>
+                                        href="https://discord.com/invite/archeworld-935064183244988446" target="_blank">频道</a>
                                 <div class="sub-navi">
                                     <ul>
                                         <li><a href="https://discord.com/invite/archeworld-935064183244988446"
@@ -125,7 +125,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                                     </ul>
                                 </div>
                             </li>
-                            <li class="m5" id="menu_xbluesalt"><a href="https://www.xbluesalt.io" class="navi-link">BlueSalt</a>
+                            <li class="m5" id="menu_xbluesalt"><a href="https://www.xbluesalt.io" class="navi-link">蓝盐商会</a>
                                 <div class="sub-navi">
                                     <ul>
                                         <li id="menu_sub_bslt"><a href="https://bslt.asia.xbluesalt.io/bslt"
@@ -139,29 +139,28 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                                     </ul>
                                 </div>
                             </li>
-                            <li class="m6" id="menu_help"><a href="/help/faq" class="navi-link">Customer
-                                    Support</a>
+                            <li class="m6" id="menu_help"><a href="/help/faq" class="navi-link">客户支持</a>
                                 <div class="sub-navi">
                                     <ul>
-                                        <li id="menu_sub_faq"><a href="/help/faq">FAQ</a></li>
-                                        <li id="menu_sub_form"><a href="/help/inquiry/form">Ticket</a></li>
-                                        <li id="menu_sub_list"><a href="/help/inquiry/list">Ticket History</a></li>
-                                        <li id="menu_sub_otp"><a href="/security/otp">OTP</a></li>
+                                        <li id="menu_sub_faq"><a href="/help/faq">常见问题</a></li>
+                                        <li id="menu_sub_form"><a href="/help/inquiry/form">票据</a></li>
+                                        <li id="menu_sub_list"><a href="/help/inquiry/list">票据历史</a></li>
+                                        <li id="menu_sub_otp"><a href="/security/otp">二次验证</a></li>
                                     </ul>
                                 </div>
                             </li>
                         </ul>
                     </nav>
                     <div class="game-start">
-                        <a href="javascript:;" class="loginRequired">Game Start</a>
+                        <a href="javascript:;" class="loginRequired">开始游戏</a>
                     </div>
 
                 </div>
 
-                <a href="/user/login/form?forwardUrl=https://www.archeworld.com/" class="nav-login">Log In</a>
+                <a href="/user/login/form?forwardUrl=https://www.archeworld.com/" class="nav-login">登录</a>
             </div>
             <div class="global-navi-outer">
-                <a href="javascript:;" class="btn-navi-close">menu close</a>
+                <a href="javascript:;" class="btn-navi-close">关闭</a>
             </div>
             <div class="navi-in-bg"></div>
         </header>
@@ -185,10 +184,10 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             </ul>
             <div class="footer-bi"><a href="https://company.xlgames.com/en">XLGAMES</a></div>
             <ul class="footer-util">
-                <li><a href="/company.xlgames.com/en" target="_blank">About us</a></li>
-                <li><a href="/legal/service/service">Terms of Service</a></li>
-                <li><a href="/legal/privacy/privacy">Privacy Policy</a></li>
-                <li><a href="/policy/operational">Operational Policy</a></li>
+                <li><a href="/" target="_blank">关于我们</a></li>
+                <li><a href="/legal/service">服务条款</a></li>
+                <li><a href="/legal/privacy">隐私协议</a></li>
+                <li><a href="/policy/operational">业务政策</a></li>
             </ul>
             <div class="copyright">Copyright &copy; XLGAMES Inc. All rights reserved.</div>
         </div>
@@ -222,7 +221,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             XLGames.LoginUser.isGuest = true;
 
 
-            XLGames.currentLanguage = 'en';
+            XLGames.currentLanguage = 'zh-CN';
             XLGames.envTimeZone = 'Asia/Seoul';
             XLGames.imgPrefix = '/resources-202501091402/images';
             XLGames.currentFullUrl = 'https://www.archeworld.com/news/621';
@@ -235,7 +234,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             XLGames.walletNetworkId = '77001';
             XLGames.domains = {
                 archeworld: "https://www.archeworld.com",
-                account: "https://member.archeworld.com",
+                account: "",
                 cs: "https://www.archeworld.com",
                 xlcach: "https://bslt.asia.xbluesalt.io",
                 bslt: "https://bslt.asia.xbluesalt.io",
@@ -245,7 +244,8 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             }
         })(jQuery);
     </script>
-    <script type="text/javascript" src="/resources-202501091402/js/share/i18n/message_en.js"></script>
+<!--    <script type="text/javascript" src="/resources-202501091402/js/share/i18n/message_en.js"></script>-->
+    <script type="text/javascript" src="/resources-202501091402/js/share/i18n/message_zh-CN.js"></script>
 
     <script type="text/javascript" src="/resources-202501091402/js/mboard/mboard.js"></script>
     <script type="text/javascript" src="/resources-202501091402/js/share/calendar.js"></script>

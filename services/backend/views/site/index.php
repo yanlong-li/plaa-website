@@ -6,15 +6,15 @@ $this->title = 'ArcheWorld';
         <div class="keyvisual">
 
             <div class="inner">
-                <p>Phase 5 Updates</p>
-                <div class="title">A New Legacy</div>
+                <p>第五阶段更新</p>
+                <div class="title">新的遗迹</div>
                 <div class="link-btn">
 
 
-                    <a class="region-link" href="/news/623">Learn More</a>
+                    <a class="region-link" href="/news/623">了解更多</a>
 
 
-                    <a class="region-link" href="/news/623">New Support Event </a>
+                    <a class="region-link" href="/news/623">新活动</a>
 
 
                 </div>
@@ -33,7 +33,7 @@ $this->title = 'ArcheWorld';
     <section class="main-contents">
 
         <article class="main-news">
-            <h2>News</h2>
+            <h2>新闻</h2>
             <a href="/news" class="more">+</a>
 
             <div class="swiper main-img-theme">
@@ -46,7 +46,7 @@ $this->title = 'ArcheWorld';
                                                 onerror="this.src='/resources-202501091402/images/common/default.jpg'"/></span>
                             <div class="list">
                                 <div class="cont-title">
-                                    <strong>Patch Note March 13, 2025</strong>
+                                    <strong>补丁说明 13, 2025</strong>
                                 </div>
                                 <div class="time">
                                     2025-03-13
@@ -62,7 +62,22 @@ $this->title = 'ArcheWorld';
                                                 onerror="this.src='/resources-202501091402/images/common/default.jpg'"/></span>
                             <div class="list">
                                 <div class="cont-title">
-                                    <strong>[Event] Support Event for New/Returning Players</strong>
+                                    <strong>[活动] 新玩家/回归玩家的辅助活动</strong>
+                                </div>
+                                <div class="time">
+                                    2024-12-04
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide slide1">
+                        <a href="/news/623">
+                                    <span class="thumb"><img
+                                                src="/aw-download1.archeworld.com/web/notice/icon_subList_maintenance01.jpg"
+                                                onerror="this.src='/resources-202501091402/images/common/default.jpg'"/></span>
+                            <div class="list">
+                                <div class="cont-title">
+                                    <strong>[维护] 周四例行维护</strong>
                                 </div>
                                 <div class="time">
                                     2024-12-04
@@ -177,11 +192,11 @@ $this->title = 'ArcheWorld';
         </article>
 
         <article class="main-guide">
-            <h2>Guide</h2>
+            <h2>引导</h2>
             <a href="/guide" class="more">+</a>
             <div class="main-guide-inner">
                 <div class="guide-search">
-                    <strong>ArcheWorld <span>GUIDE</span></strong>
+                    <strong>上古世界 <span>引导</span></strong>
                     <div class="guide-search-form">
                         <form id="guideSearchForm" action="/guide">
                             <input type="hidden" name="searchType" value="TITLE_AND_CONTENT">
@@ -268,13 +283,13 @@ $this->title = 'ArcheWorld';
             </div>
         </article>
         <article class="main-archeworld-start">
-            <div class="title">ArcheWorld<br/>Start Your Adventure Now</div>
+            <div class="title">上古世界<br/>现在就开始属于你的冒险故事</div>
             <ul class="link-start">
-                <li><a href="/game/download"><i class="ico-download"></i><span>Download</span></a></li>
+                <li><a href="/game/download"><i class="ico-download"></i><span>下载</span></a></li>
                 <li><a href="/guide?categories=Beginner"><i
-                                class="ico-guide"></i><span>The Beginner's<br/> Guide</span></a>
+                                class="ico-guide"></i><span>初学者<br/> 引导</span></a>
                 </li>
-                <li><a href="/guide/148"><i class="ico-walletguide"></i><span>Wallet<br/> Guidelines</span></a>
+                <li><a href="/guide/148"><i class="ico-walletguide"></i><span>钱包<br/> 指南</span></a>
                 </li>
             </ul>
         </article>

@@ -76,4 +76,19 @@ class UserController extends Controller
     {
         return $this->render();
     }
+
+    public function actionJoinAgreementEmail()
+    {
+        return $this->render();
+    }
+
+    public function actionJoinForm()
+    {
+        return $this->render();
+    }
+
+    public function actionFindIdProcess()
+    {
+        return $this->render();
+    }
 }

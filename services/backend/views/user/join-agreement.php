@@ -2,25 +2,23 @@
 $this->title = 'Sign Up | XLGAMES Global member';
 ?>
 
-<div class="txt-join-welcome">
-    <i class="ico-xlgames"></i>Welcome <strong>XLGAMES new global members.</strong>
-</div>
+
 <div class="wrap-content">
     <section class="content">
         <header class="content-title">
-            <h1>Sign up options</h1>
-            <p>Please choose preferred sign up option.</p>
+            <h1>注册选项</h1>
+            <p>请选择一个注册方式</p>
         </header>
         <article class="login-form">
             <ul class="link-join">
                 <li>
                     <button class="link-join-select" type="button" data-href="/user/join/agreement/email">
-                        <i class="ico-email2"></i> Sign up with email address
+                        <i class="ico-email2"></i> 通过电子邮件注册
                     </button>
                 </li>
                 <li>
                     <button class="link-join-select" type="button" data-href="/auth/google">
-                        <i class="ico-google2"></i> Sign up with Google
+                        <i class="ico-google2"></i> Google 账户注册
                     </button>
                 </li>
 
