@@ -29,7 +29,9 @@
         accessDeniedInactive: $m$$("休眠账户。"),
         tryagain: $m$$("请重新尝试。"),
         loginFailTrayAgain: $m$$("登录失败，请重试。"),
-        defaultErrorMessage: "系统错误，请联系管理员！"
+        defaultErrorMessage: "系统错误，请联系管理员！",
+        gameTimeRestriction: $m$$(" 청소년보호법에 따라 00시부터 06시까지\n만 16세 미만의 청소년은 게임을 이용하실 수 없습니다."),
+        reqWalletVerification: $m$$("All service is available after completing wallet verification.")
     };
     AL10N.Browser = {
         closeMsg: $m$$("我不会下载这个浏览器。"),
@@ -58,7 +60,7 @@
         ok: $m$$("确定"),
         registering: $m$$("正在注册..."),
         save: $m$$("保存"),
-        close: $m$$("关闭")
+        close: $m$$("关闭"),
     };
     AL10N.MultiBoard = {
         confirmCommentDelete: $m$$("您确定要删除吗？"),
@@ -134,6 +136,44 @@
         closeMsg: $m$$("不要再显示此消息。"),
         notSupportOs: $m$$("操作系统不受支持。")
     };
+    AL10N.Minting = {
+        disallowBot: $m$$("Minting is already in progress. Please try again after few minutes."),
+        expireDate: $m$$("We're sorry. Minting is not open at this time."),
+        overTotalCount: $m$$("We're sorry. All NFTs have now been minted."),
+        overCountPerAccount: $m$$("The maximum number of mint participation has been exceeded."),
+        duplicated: $m$$("The maximum number of mint participation has been exceeded."),
+        notWhiteList: $m$$("You are not allowed to mint."),
+        connectWallet: $m$$("Please connect your wallet."),
+        failure: $m$$("Minting failed. Thank you for your participation."),
+        success: $m$$("Minting succeed. Thank you for your participation."),
+        checkoutPlugin: $m$$("Please check the current status of the Wallet Extension."),
+        installed: $m$$("MetaMask is installed."),
+        needInstall: $m$$('\x3ca href\x3d"https://metamask.io/download" target\x3d"_blank"\x3ePlease install MetaMask.\x3c/a\x3e'),
+        needInstallMobile: $m$$('\x3ca href\x3d"https://metamask.app.link/dapp/' +
+            location.hostname + '"\x3ePlease install MetaMask.\x3c/a\x3e'),
+        nopaid: $m$$("There is no payment transaction."),
+        differentSender: $m$$("Invalid request."),
+        progress: $m$$("Minting in progress."),
+        confirmMsg: $m$$("When the wallet window appears, please confirm or reject."),
+        warningF5: $m$$("Caution! It may be difficult to participate in minting if you refresh a page(F5)."),
+        exception: $m$$("An error has occurred. please try again."),
+        seeMintingDate: $m$$("Please check the minting schedule."),
+        hasPaymentInfoCall: $m$$("There is information in the process of payment.\nPlease check your wallet"),
+        selectWallet: $m$$("Please choose your wallet."),
+        selectWalletLabel: $m$$("Choose Your Wallet"),
+        notSupportMobile: $m$$("Mobile is not support.\nPlease use PC."),
+        needInstallKaikas: $m$$('\x3ca href\x3d"https://chrome.google.com/webstore/detail/kaikas/jblndlipeogpafnldhgmapagcccfchpi" target\x3d"_blank"\x3ePlease install Kaikas.\x3c/a\x3e'),
+        reconnectWallet: $m$$("Please reconnect your wallet."),
+        invalidNetwork: $m$$("The network is invalid."),
+        illegalAccess: $m$$("Illegal access"),
+        txError: $m$$("Minting failed. (tx error)"),
+        unknownError: $m$$("Minting failed. (unknown error)"),
+        klaytnError: $m$$("Minting failed. ({0})"),
+        polygonError: $m$$("Minting failed. ({0})"),
+        userDenied: $m$$("User denied transaction signature"),
+        cancelFail: $m$$("Minting cancel ignored."),
+        cancelPending: $m$$("Failed to verify minting result.\nMint transaction may be pending.\nClick the OK button to check the transaction by PolygonScan.")
+    };
     AL10N.Wallet = {
         needInstall: $m$$("请安装 MetaMask。"),
         connectWallet: $m$$("请连接您的钱包。"),
@@ -148,7 +188,55 @@
         reqAuthAddress: $m$$("钱包地址尚未在 XLGAMES 中验证。"),
         useBrowser: $m$$("请使用最新版本的 Chrome 或 Edge 浏览器。"),
         notSupportMobile: $m$$("不支持移动设备。\n请使用 PC。"),
+        metamask: $m$$("MetaMask"),
+        kaikas: $m$$("Kaikas"),
+        facewallet: $m$$("Facewallet"),
     };
+    AL10N.Discord = {
+        connectWallet: $m$$("Please connect your wallet."),
+        needInstall: $m$$("Please install Wallet extension."),
+        checkoutPlugin: $m$$("Please check the current status of the Wallet Extension."),
+        walletSelect: $m$$("지갑 선택"),
+        invalidNetwork: $m$$("The network is invalid."),
+        duplicateWallet: $m$$("The address has already been used by someone else."),
+        verifyHolder: $m$$("The holder role has been granted."),
+        revokeHolder: $m$$("The holder role has been revoked because you do not have any cards."),
+        resetAddress: $m$$("The wallet address is initialized, and the Holder role is revoked."),
+        illegalAccess: $m$$("Illegal access")
+    };
+    AL10N.Keyvisual = {preeventClosed: $m$$("Pre-registration closed")};
+    AL10N.Nft = {btnOpen: $m$$("Open +"), btnClose: $m$$("Close -")};
+    AL10N.Staking = {
+        stakeable: $m$$("Stakeable"),
+        staked: $m$$("Staked"),
+        autoExtended: $m$$("Auto Extended"),
+        autoExtend: $m$$("Auto Extend"),
+        autoExtension: $m$$("Auto Extension"),
+        thisMonth: $m$$("This Month"),
+        untilCancel: $m$$("Continue staking until cancellation"),
+        endThisMonth: $m$$("Staking is cancelled on the last day of this month"),
+        complete: $m$$("Complete"),
+        confirm: $m$$("Confirm"),
+        staking: $m$$("Staking"),
+        balance: $m$$("Balance"),
+        cancelExtension: $m$$("Cancel Extension"),
+        dailyPoints: $m$$("Daily Points"),
+        totalPoints: $m$$("Total Points"),
+        exchangeGift: $m$$("Point exchange gift"),
+        btnExchange: $m$$("Exchange"),
+        emptyNft: $m$$("You don't have Fandom Card"),
+        emptyDispalyNft: $m$$("No NFTs to display"),
+        normal: $m$$("Normal"),
+        rare: $m$$("Rare"),
+        purchasedMarket: $m$$("Fandom Cards can be purchased in a Marketplace"),
+        selectDuration: $m$$("Select duration"),
+        selectRegion: $m$$("Select region"),
+        confirmExchange: $m$$("Would you exchange {0} points for a Special Costume Box?"),
+        completed: $m$$("Completed"),
+        tryAgain: $m$$("Request not completed. Please try again."),
+        exchangeComplete: $m$$("A Special Costume Box coupon has been issued. Please check Coupon menu."),
+        insufficientPoints: $m$$("Insufficient points")
+    }
     AL10N.Region = {
         "Layertitle": $m$$('区服选择'),
         "Layerdesc": $m$$('在所选区域玩游戏并存入BSLT。'),

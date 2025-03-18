@@ -301,7 +301,7 @@
 
         pageNo = (!isNaN(pageNo) && pageNo > 0) ? pageNo : 1;
 
-        const response = await axios.post(`/www.xbluesalt.io/ScopeList.json?pageNo=${pageNo}`);
+        const response = await axios.get(`/www.xbluesalt.io/ScopeList.json?pageNo=${pageNo}`);
 
         if (response.data?.IsError){
             location.href = "/error";

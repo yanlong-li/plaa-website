@@ -208,7 +208,7 @@ const render = async function (pageNo) {
         "pageSize": pageSize
     };
     
-    const response = await axios.post(`/www.xbluesalt.io/api/coupon/couponlist.json`, data);
+    const response = await axios.get(`/www.xbluesalt.io/api/coupon/couponlist.json`, data);
 
     let templateData = response.data;
     templateData.hasRows = templateData.totalCount > 0;

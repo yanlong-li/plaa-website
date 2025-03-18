@@ -410,9 +410,10 @@ html, body { margin: 0; padding: 0; height: 100%; }
 .container .tab-category-wrap .tab-sub-menu a:hover { background-color: #e5e5e5; }
 
 .paging { position: relative; padding: 2rem 0; text-align: center; border-top: 0.1rem solid #3d3d3d; }
-.paging a, .paging .paging-more { position: relative; color: #ddd; display: inline-block; padding: 1rem; font-size: 1.8rem; line-height: 1; text-decoration: none; vertical-align: middle; }
+.paging a, .paging .paging-more { position: relative; color: #ddd; display: inline-block; padding: 1rem; font-size: 1.8rem; line-height: 1; text-decoration: none; vertical-align: middle;border: none;background: none; }
 .paging a:hover, .paging a.active, .paging .paging-more:hover, .paging .paging-more.active { color: #66bcff; text-decoration: none; }
-.paging a.active, .paging .paging-more.active { font-weight: bold; }
+.paging a.active, .paging .paging-more.active { font-weight: bold; border: none;
+  background: none;}
 .paging .paging-more { color: #ddd; display: inline-block; font-size: 1.8rem; width: 2.5rem; line-height: 1; padding: 0.5rem 0; text-align: center; vertical-align: top; }
 .paging .paging-navi { color: #ddd; display: inline-block; padding: 1rem; font-size: 1.4rem; line-height: 1; text-decoration: none; vertical-align: middle; }
 .paging .paging-navi:hover { color: #ddd; text-decoration: none; }

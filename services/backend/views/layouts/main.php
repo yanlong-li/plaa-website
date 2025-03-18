@@ -50,11 +50,16 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     <meta name="viewport" content="width=device-width,user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <link href="/resources-202501091402/css/swiper-bundle.min.css" rel="stylesheet"/>
-    <link href="/resources-202501091402/css/common.css" media="screen and (min-width:1200px)" rel="stylesheet"/>
-    <link href="/resources-202501091402/css/common_t.css" media="screen and (min-width:768px) and (max-width:1199px)"
-          rel="stylesheet"/>
-    <link href="/resources-202501091402/css/common_m.css" media="screen and (max-width:767px)" rel="stylesheet"/>
 
+
+    <?php if (isset($this->blocks['common'])): ?>
+        <?= $this->blocks['common'] ?>
+    <?php else: ?>
+        <link href="/resources-202501091402/css/common.css" media="screen and (min-width:1200px)" rel="stylesheet"/>
+        <link href="/resources-202501091402/css/common_t.css" media="screen and (min-width:768px) and (max-width:1199px)"
+              rel="stylesheet"/>
+        <link href="/resources-202501091402/css/common_m.css" media="screen and (max-width:767px)" rel="stylesheet"/>
+    <?php endif; ?>
     <title><?= Html::encode($this->title) ?></title>
     <meta name="fbTitle" property="og:title" content="<?= Html::encode($this->title) ?>"/>
     <?php $this->head() ?>
@@ -71,7 +76,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                     <h1 class="global-gnb-logo">XLGAMES</h1>
                     <ul class="company-site">
                         <li><a href="/">上古世界</a></li>
-                        <li><a href="/www.xbluesalt.io">蓝盐商会</a></li>
+                        <li><a href="/xbluesalt">蓝盐商会</a></li>
                     </ul>
                 </div>
                 <div class="account-util">
@@ -125,16 +130,16 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                                     </ul>
                                 </div>
                             </li>
-                            <li class="m5" id="menu_xbluesalt"><a href="/www.xbluesalt.io" class="navi-link">蓝盐商会</a>
+                            <li class="m5" id="menu_xbluesalt"><a href="/xbluesalt" class="navi-link">蓝盐商会</a>
                                 <div class="sub-navi">
                                     <ul>
-                                        <li id="menu_sub_bslt"><a href="https://bslt.asia.xbluesalt.io/bslt"
+                                        <li id="menu_sub_bslt"><a href="/xbluesalt/deposit"
                                                                   class="region-link">BSLT</a></li>
-                                        <li id="menu_sub_staking"><a href="https://www.xbluesalt.io/staking/info">Staking</a>
+                                        <li id="menu_sub_staking"><a href="/xbluesalt/staking">Staking</a>
                                         </li>
-                                        <li id="menu_sub_coupon"><a href="https://bslt.asia.xbluesalt.io/coupon"
+                                        <li id="menu_sub_coupon"><a href="/xbluesalt/coupon"
                                                                     class="region-link">Coupon</a></li>
-                                        <li id="menu_sub_scope"><a href="https://scope.asia.xbluesalt.io/"
+                                        <li id="menu_sub_scope"><a href="/xbluesalt/scope"
                                                                    class="region-link">Scope</a></li>
                                     </ul>
                                 </div>
@@ -297,7 +302,9 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         }
         app.mount("#cookieRegionContainer");
     </script>
-
+    <?php if (isset($this->blocks['script'])): ?>
+        <?= $this->blocks['script'] ?>
+    <?php endif; ?>
     <!--end footer-->
 </body>
 </html>
