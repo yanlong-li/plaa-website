@@ -60,35 +60,6 @@ $this->beginBlock('script');
             return formatted;
         };
     </script>
-    <script type="module">
-        import {createApp} from "/www.xbluesalt.io/lib/vue.js/3.2.47/vue.js";
-        import {cookieApp} from "/www.xbluesalt.io/js/cookie/cookiemanage_service.min.js";
-        import {regionApp} from "/www.xbluesalt.io/js/region/region_service.min.js";
-
-        let app = createApp(cookieApp);
-        app.config.globalProperties.globalData = {
-            currentLang: "en",
-            domains: XLGames.domains
-        }
-        app.mount("#cookieRegionContainer");
-
-        const CURRENT_REGION = location.host.split('.')[1].toUpperCase();
-        const REGION_COOKIE_NAME = "XL-REGION";
-
-        let vueRegionApp = createApp(regionApp);
-        vueRegionApp.config.globalProperties.AL10N = AL10N;
-        vueRegionApp.config.globalProperties.globalData = {
-            currentLang: "en",
-            domains: XLGames.domains,
-            currentRegion: CURRENT_REGION
-        }
-        vueRegionApp.mount("#regionContainer");
-
-        if (getCookie(REGION_COOKIE_NAME) != CURRENT_REGION) {
-            // document.cookie = REGION_COOKIE_NAME + "=" + CURRENT_REGION + ";path=/;domain=." + XLGames.domains.cookieDomain;
-            document.cookie = REGION_COOKIE_NAME + "=" + CURRENT_REGION + ";path=/";
-        }
-    </script>
 
     <script type="module" src="/www.xbluesalt.io/js/bslt/exchange.js"></script>
     <script id="entry-template" type="text/x-handlebars-template">
