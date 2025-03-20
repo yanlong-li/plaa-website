@@ -23,7 +23,7 @@ $this->title = 'Log In | XLGAMES Global member';
                         <label id="id_label" for="id_field" class="txt-hidden">邮箱账户</label>
 
                         <input id="id_field" type="text" name="j_username" class="input-txt-login" maxlength="75"
-                               value="" placeholder="邮箱账户"/>
+                               value="<?=$userId?>" placeholder="邮箱账户"/>
 
                         <div class="caution">
                             <label class="error"></label>
@@ -38,8 +38,7 @@ $this->title = 'Log In | XLGAMES Global member';
                         <!-- input tooltip -->
                         <div class="caution">
                             <label class="error">
-
-
+                                <?= $login_error ? 'ID or password doesn\'t match.' : '' ?>
                             </label>
                         </div>
                     </div>
@@ -69,7 +68,7 @@ $this->title = 'Log In | XLGAMES Global member';
 <script type="text/javascript" src="/static_resources/js/lib/jquery.validation/1.11.1/jquery.validate.min.js"></script>
 <script type="text/javascript" src="/resources-202412261502/js/member.utils.js"></script>
 <script type="text/javascript" src="/resources-202412261502/js/member.login.js"></script>
-<script src="//www.google.com/recaptcha/api.js?onload=recaptchaCalllback&hl=en" async></script>
+<!--<script src="//www.google.com/recaptcha/api.js?onload=recaptchaCalllback&hl=en" async></script>-->
 <script type="text/javascript">
     $(document).ready(function () {
         window.login = new XLGames.Member.Login($("#authenticate"));

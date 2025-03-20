@@ -1,3 +1,4 @@
 .idea
 *.exe
 *.mp4
+services/backend/web/*.sqlite3

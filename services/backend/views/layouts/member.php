@@ -51,12 +51,18 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         </div>
         <div class="account-util">
             <ul>
+                <?php if (Yii::$app->user->isGuest): ?>
 
-                <li><a href="/user/join/agreement" class="link-util"><i
-                                class="ico-join"></i> <span>加入</span></a></li>
-                <li><a href="/user/login/form" class="btn-portal-login"><i class="ico-login"></i>
-                        <span>登录</span></a></li>
-
+                    <li><a href="/user/join/agreement" class="link-util"><i
+                                    class="ico-join"></i> <span>加入</span></a></li>
+                    <li><a href="/user/login/form" class="btn-portal-login"><i class="ico-login"></i>
+                            <span>登录</span></a></li>
+                <?php else: ?>
+                    <li><a href="/user/mypage" class="link-util"><i class="ico-mypage"></i> <span>我的信息</span></a>
+                    </li>
+                    <li><a href="/user/logout" class="btn-portal-login"><i class="ico-logout"></i> <span>退出登录</span></a>
+                    </li>
+                <?php endif; ?>
 
             </ul>
 
@@ -67,9 +73,11 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 </div>
 
 <div id="wrapperContent">
-    <div class="txt-join-welcome">
-        <i class="ico-xlgames"></i>欢迎加入 <strong>XLGAMES 全球会员.</strong>
-    </div>
+    <?php if (empty($this->params['hide_welcome'])): ?>
+        <div class="txt-join-welcome">
+            <i class="ico-xlgames"></i>欢迎加入 <strong>XLGAMES 全球会员.</strong>
+        </div>
+    <?php endif; ?>
     <?php $this->beginBody() ?>
     <?= $content ?>
     <?php $this->endBody() ?>

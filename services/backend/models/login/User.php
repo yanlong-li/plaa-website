@@ -4,6 +4,11 @@ namespace app\models\login;
 
 use yii\web\IdentityInterface;
 
+/**
+ * @property int    $id
+ * @property string $username
+ * @property string $password
+ */
 class User extends Login implements IdentityInterface
 {
     public static function tableName()

@@ -1,0 +1,61 @@
+'use strict';
+(function() {
+		XLGames.namespace("XLGames.Member.Confirm");
+		XLGames.Member.Confirm.Password = Class.extend({
+			init: function($$form$$) {
+				this.$form = $$form$$;
+				this.$confirmBtn = $("#confirmBtn", $$form$$);
+				this.$password = $("input[name\x3d'password']", $$form$$);
+				this.$popup = $("input[name\x3d'popup']", $$form$$)
+			},
+			rules: function() {
+				var $me$$ = this;
+				return 0 == $me$$.$password.length ? (console.log("no password"),
+					{}) : {
+					onkeyup: !1,
+					rules: {
+						password: {
+							required: !0
+						}
+					},
+					messages: {
+						password: {
+							required: XLGames.DEFAULT_ERROR_MARK.mark + AL10N.Member.requiredPassword()
+						}
+					},
+					errorPlacement: function($error$$, $element$$) {
+						XLGames.DEFAULT_ERROR_PLACE.errorPlacement($error$$, $element$$)
+					},
+					submitHandler: function($form$$) {
+						$me$$.submitLoginForm()
+					}
+				}
+			},
+			submitLoginForm: function() {
+				var $me$$ = this;
+				$.ajax("/user/login/encryptionKey", {
+					data: {
+						currentTime: (new Date).getTime()
+					},
+					dataType: "json"
+				}).done(function($encryptedPassword_publicKey$$) {
+					var $$encryptedForm_password$$ = $me$$.$password.val()
+						, $popup$$ = $me$$.$popup.val()
+						, $rsa$$ = new RSAKey;
+					$rsa$$.setPublic($encryptedPassword_publicKey$$.modulus, $encryptedPassword_publicKey$$.exponent);
+					$encryptedPassword_publicKey$$ = $rsa$$.encrypt($$encryptedForm_password$$);
+					$$encryptedForm_password$$ = $('\x3cform action\x3d"" method\x3d"post"\x3e\n\x3cinput type\x3d"hidden" name\x3d"password" value\x3d""/\x3e\n\x3cinput type\x3d"hidden" name\x3d"popup" value\x3d"" /\x3e\n\x3c/form\x3e');
+					$$encryptedForm_password$$.attr("action", $me$$.$form.attr("action"));
+					$$encryptedForm_password$$.attr("method", "post");
+					$$encryptedForm_password$$.find('input[name\x3d"password"]').val($encryptedPassword_publicKey$$);
+					$$encryptedForm_password$$.find('input[name\x3d"popup"]').val($popup$$);
+					$$encryptedForm_password$$.append($me$$.$form.find('input[name\x3d"_csrf"]'));
+					$("body").append($$encryptedForm_password$$);
+					$$encryptedForm_password$$.submit()
+				}).fail(function($jqXHR$$, $textStatus$$, $errorThrown$$) {
+					alert("오류가 발생했습니다. 오류:" + $errorThrown$$)
+				})
+			}
+		})
+	}
+)(jQuery);

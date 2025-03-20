@@ -9,7 +9,8 @@ define('FILE_DIR', __DIR__ . '/downloads');
 $file_path    = rtrim(FILE_DIR . ($_SERVER['PATH_INFO'] ?? '/'), '/');
 $download_url = 'https://www.archeworld.com/';
 //$download_url = 'https://scope.asia.xbluesalt.io';
-$download_url = 'https://bslt.asia.xbluesalt.io';
+//$download_url = 'https://bslt.asia.xbluesalt.io';
+$download_url = 'https://member.archeworld.com';
 
 if (empty($_SERVER['PATH_INFO'])) {
     $file_path            = FILE_DIR . '/index.html';
@@ -62,12 +63,10 @@ if (file_exists($file_path) && !is_dir($file_path)) {
     $file_url = $download_url . $_SERVER['PATH_INFO'];
 
 
-//    var_dump($file_url);
-//    die;
     // 使用 cURL 下载文件
     $ch = curl_init($file_url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_PROXY, "http://127.0.0.1:7892");
+    curl_setopt($ch, CURLOPT_PROXY, "http://yanlongli:123456@us:3128");
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
     $file_content = curl_exec($ch);
 

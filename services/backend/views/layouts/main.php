@@ -56,7 +56,8 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         <?= $this->blocks['common'] ?>
     <?php else: ?>
         <link href="/resources-202501091402/css/common.css" media="screen and (min-width:1200px)" rel="stylesheet"/>
-        <link href="/resources-202501091402/css/common_t.css" media="screen and (min-width:768px) and (max-width:1199px)"
+        <link href="/resources-202501091402/css/common_t.css"
+              media="screen and (min-width:768px) and (max-width:1199px)"
               rel="stylesheet"/>
         <link href="/resources-202501091402/css/common_m.css" media="screen and (max-width:767px)" rel="stylesheet"/>
     <?php endif; ?>
@@ -81,18 +82,19 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                 </div>
                 <div class="account-util">
                     <ul>
-
-                        <li>
-                            <a href="/user/join/agreement" class="link-util"><i class="ico-join"></i>
-                                <span>加入</span></a>
-                        </li>
-                        <li>
-                            <a href="/user/login/form?forwardUrl=https://www.archeworld.com/"
-                               class="btn-portal-login">
-                                <i class="ico-login"></i> <span>登录</span>
-                            </a>
-                        </li>
-
+                        <?php if (Yii::$app->user->isGuest): ?>
+                            <li><a href="/user/join/agreement" class="link-util"><i
+                                            class="ico-join"></i> <span>加入</span></a></li>
+                            <li><a href="/user/login/form" class="btn-portal-login"><i class="ico-login"></i>
+                                    <span>登录</span></a></li>
+                        <?php else: ?>
+                            <li><a href="/user/mypage" class="link-util"><i class="ico-mypage"></i>
+                                    <span>我的信息</span></a>
+                            </li>
+                            <li><a href="/user/logout" class="btn-portal-login"><i class="ico-logout"></i>
+                                    <span>退出登录</span></a>
+                            </li>
+                        <?php endif; ?>
                     </ul>
                 </div>
             </header>
@@ -161,8 +163,12 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                     </div>
 
                 </div>
-
-                <a href="/user/login/form?forwardUrl=https://www.archeworld.com/" class="nav-login">登录</a>
+                <?php if (Yii::$app->user->isGuest): ?>
+                    <a href="/user/login/form?forwardUrl=https://www.archeworld.com/" class="nav-login">登录</a>
+                <?php else: ?>
+                    <a href="/user/logout?spring-security-redirect=https://www.archeworld.com/" class="nav-logout">Log
+                        Out</a>
+                <?php endif; ?>
             </div>
             <div class="global-navi-outer">
                 <a href="javascript:;" class="btn-navi-close">关闭</a>
@@ -220,10 +226,20 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                 XLGames.LoginUser = {};
             }
 
-            XLGames.currentMenu = 'news';
-            XLGames.currentMenuGroup = 'news';
+            XLGames.currentMenu = '';
+            XLGames.currentMenuGroup = '';
             XLGames.isMobileView = false;
             XLGames.LoginUser.isGuest = true;
+
+            // region 登录用户信息
+            XLGames.LoginUser.isGuest = false;
+            XLGames.LoginUser.nickname = '';
+            XLGames.LoginUser.isRestrictedAccount = false;
+            XLGames.LoginUser.isCertified = true;
+            XLGames.LoginUser.walletAuthType = 'CHANNELING';
+            XLGames.LoginUser.isGoogle = 'true' === 'true';
+            XLGames.LoginUser.walletAddress = '0xffffffffffffffffffffffffffffffffffffffff'
+            // endregion
 
 
             XLGames.currentLanguage = 'zh-CN';
@@ -234,22 +250,22 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 
             XLGames.webLauncherUrl = "/aw-download1.archeworld.com/launcher/updates";
             XLGames.UPDATE_AUTH_COOKI_NAME = 'member-update-auth';
-            XLGames.COOKIE_DOMAIN = "archeworld.com";
-            XLGames.currentRegion = '';
+            XLGames.COOKIE_DOMAIN = "plaa.top";
+            XLGames.currentRegion = 'ASIA';
             XLGames.walletNetworkId = '77001';
             XLGames.domains = {
-                archeworld: "https://www.archeworld.com",
+                archeworld: "https://www.plaa.top",
                 account: "",
-                cs: "https://www.archeworld.com",
+                cs: "",
                 xlcach: "https://bslt.asia.xbluesalt.io",
                 bslt: "https://bslt.asia.xbluesalt.io",
                 scope: "https://scope.asia.xbluesalt.io",
                 xbluesalt: "https://www.xbluesalt.io",
-                cookieDomain: "archeworld.com"
+                cookieDomain: "plaa.com"
             }
         })(jQuery);
     </script>
-<!--    <script type="text/javascript" src="/resources-202501091402/js/share/i18n/message_en.js"></script>-->
+    <!--    <script type="text/javascript" src="/resources-202501091402/js/share/i18n/message_en.js"></script>-->
     <script type="text/javascript" src="/resources-202501091402/js/share/i18n/message_zh-CN.js"></script>
 
     <script type="text/javascript" src="/resources-202501091402/js/mboard/mboard.js"></script>
