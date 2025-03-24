@@ -53,7 +53,7 @@ $config = [
         ],
         'db'           => [
             'class'    => 'yii\db\Connection',
-            'dsn'      => 'mysql:host=vm2;dbname=aaemu_plaa',
+            'dsn'      => 'mysql:host=vm2.tsc.yanlongli.com;dbname=aaemu_plaa',
             'username' => 'root',
             'password' => '123456',
             'charset'  => 'utf8mb4',
@@ -65,14 +65,14 @@ $config = [
         ],
         'loginDb'      => [
             'class'    => 'yii\db\Connection',
-            'dsn'      => 'mysql:host=vm2;dbname=aaemu_login',
+            'dsn'      => 'mysql:host=vm2.tsc.yanlongli.com;dbname=aaemu_login',
             'username' => 'root',
             'password' => '123456',
             'charset'  => 'utf8mb4',
         ],
         'gameDb2'      => [
             'class'    => 'yii\db\Connection',
-            'dsn'      => 'mysql:host=vm2;dbname=aaemu_game',
+            'dsn'      => 'mysql:host=vm2.tsc.yanlongli.com;dbname=aaemu_game',
             'username' => 'root',
             'password' => '123456',
             'charset'  => 'utf8mb4',

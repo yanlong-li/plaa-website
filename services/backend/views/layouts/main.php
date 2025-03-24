@@ -231,6 +231,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             XLGames.isMobileView = false;
             XLGames.LoginUser.isGuest = true;
 
+            <?php if (!Yii::$app->user->isGuest): ?>
             // region 登录用户信息
             XLGames.LoginUser.isGuest = false;
             XLGames.LoginUser.nickname = '';
@@ -240,6 +241,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             XLGames.LoginUser.isGoogle = 'true' === 'true';
             XLGames.LoginUser.walletAddress = '0xffffffffffffffffffffffffffffffffffffffff'
             // endregion
+            <?php endif; ?>
 
 
             XLGames.currentLanguage = 'zh-CN';
