@@ -76,7 +76,7 @@ $this->title = 'Game Download | ArcheWorld';
                 <li>如果您尚未安装启动器，或者安装后启动器未运行，请 从 Launcher 下载中安装文件。
                 </li>
             </ul>
-            <a class="btn-download" href="/aw-download1.archeworld.com/launcher/updates/setup.exe">下载启动器</a>
+            <a class="btn-download" href="/aw-download1.archeworld.com/launcher/updates/Launcher.exe">下载启动器</a>
         </div>
         <h3>显卡驱动程序和最新的 Direct X 下载</h3>
         <div class="box">

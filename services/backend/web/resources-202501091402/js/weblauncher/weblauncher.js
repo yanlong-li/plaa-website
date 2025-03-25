@@ -53,7 +53,7 @@
                     $supportOs$$ = /windows nt/.test($layerHtml_osVersion_ua$$);
                 $layerHtml_osVersion_ua$$ = /windows nt ([0-9]{1,}.[0-9]{1,})/.exec($layerHtml_osVersion_ua$$);
                 $installer$$ = null != $layerHtml_osVersion_ua$$ && 2 == $layerHtml_osVersion_ua$$.length && Number($layerHtml_osVersion_ua$$[1]) >=
-                Number("6.2") ? $installer$$ + "/setup.exe" : $installer$$ + "/setupfull.exe";
+                Number("6.2") ? $installer$$ + "/Launcher.exe" : $installer$$ + "/setupfull.exe";
                 $layerHtml_osVersion_ua$$ = "\x3cdiv class\x3d'layer_comm v4launcher'\x3e\x3cdiv class\x3d'head'\x3e\x3ch2\x3e" + AL10N.Weblauncher.install() + "\x3c/h2\x3e\x3ca href\x3d'javascript:;' class\x3d'ico_close closeBtn' id\x3d'okBtn'\x3e" + AL10N.Button.close() + "\x3c/a\x3e\x3c/div\x3e\x3cul class\x3d'txt-launcher'\x3e\x3cli\x3e\x3cstrong\x3e" + AL10N.Weblauncher.install() + "\x3c/strong\x3e- " + AL10N.Weblauncher.reqInstall() + "\x3cbr /\x3e- " + AL10N.Weblauncher.downloadAndInstall() +
                     "\x3ca href\x3d'javascript:;' class\x3d'btn-launcher-download weblauncher-download'\x3e" + AL10N.Weblauncher.btnDownload() + "\x3c/a\x3e\x3c/li\x3e\x3cli\x3e\x3cstrong\x3e" + AL10N.Weblauncher.requestCs() + "\x3c/strong\x3e\x3ca href\x3d'javascript:;' class\x3d'go-faq'\x3e" + AL10N.Weblauncher.btnCs() + "\x3c/a\x3e\x3c/li\x3e";
                 $options$$.isChrome && ($layerHtml_osVersion_ua$$ += "\x3cli\x3e\x3cstrong\x3e" + AL10N.Weblauncher.alreadyInstallMsg() + "\x3c/strong\x3e\x3ca href\x3d'javascript:;' class\x3d'prevent-chrome'\x3e" +
